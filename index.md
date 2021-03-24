@@ -10,5 +10,9 @@ permalink: /
 
 [Getting started](/getting-started)
 
+<<<<<<< HEAD
 ![Panther Logo]({{site.baseurl}}/img/PANTHER_LOGO_LARGE_1700x800.png)
 
+=======
+# more things
+>>>>>>> 9e8c597898068ce60b3375c627e62cde387bb8ad
