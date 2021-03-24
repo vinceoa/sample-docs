@@ -12,17 +12,23 @@
     "relUrl": "/getting-started"
   },"2": {
     "doc": "Home",
+    "title": "more things",
+    "content": " ",
+    "url": "https://vinceoa.github.io/sample-docs/#more-things",
+    "relUrl": "/#more-things"
+  },"3": {
+    "doc": "Home",
     "title": "Home",
     "content": "Getting started . ",
     "url": "https://vinceoa.github.io/sample-docs/",
     "relUrl": "/"
-  },"3": {
+  },"4": {
     "doc": "rules",
     "title": "hello rules",
     "content": " ",
     "url": "https://vinceoa.github.io/sample-docs/panther/rules#hello-rules",
     "relUrl": "/panther/rules#hello-rules"
-  },"4": {
+  },"5": {
     "doc": "rules",
     "title": "rules",
     "content": " ",
