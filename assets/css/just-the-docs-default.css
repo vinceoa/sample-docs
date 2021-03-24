@@ -138,7 +138,7 @@ img { max-width: 100%; height: auto; }
 
 hr { height: 1px; padding: 0; margin: 2rem 0; background-color: #eeebee; border: 0; }
 
-.side-bar { z-index: 0; display: flex; flex-wrap: wrap; background-color: #2daae1; }
+.side-bar { z-index: 0; display: flex; flex-wrap: wrap; background-color: #36a9e1; }
 @media (min-width: 50rem) { .side-bar { flex-wrap: nowrap; position: fixed; width: 248px; height: 100%; flex-direction: column; border-right: 1px solid #eeebee; align-items: flex-end; } }
 @media (min-width: 66.5rem) { .side-bar { width: calc((100% - 1064px) / 2 + 264px); min-width: 264px; } }
 
@@ -149,7 +149,7 @@ hr { height: 1px; padding: 0; margin: 2rem 0; background-color: #eeebee; border:
 @media (min-width: 50rem) { .main-content-wrap { padding-right: 2rem; padding-left: 2rem; } }
 @media (min-width: 50rem) { .main-content-wrap { padding-top: 2rem; padding-bottom: 2rem; } }
 
-.main-header { z-index: 0; display: none; background-color: #2daae1; }
+.main-header { z-index: 0; display: none; background-color: #36a9e1; }
 @media (min-width: 50rem) { .main-header { display: flex; justify-content: space-between; height: 60px; background-color: #fff; border-bottom: 1px solid #eeebee; } }
 .main-header.nav-open { display: block; }
 @media (min-width: 50rem) { .main-header.nav-open { display: flex; } }
@@ -168,6 +168,8 @@ hr { height: 1px; padding: 0; margin: 2rem 0; background-color: #eeebee; border:
 @media (min-width: 50rem) { .site-title { padding-right: 2rem; padding-left: 2rem; } }
 @media (min-width: 31.25rem) { .site-title { font-size: 24px !important; line-height: 1.25; } }
 @media (min-width: 50rem) { .site-title { padding-top: 0.5rem; padding-bottom: 0.5rem; } }
+
+.site-logo { width: 100%; height: 100%; background-image: url("https://vinceoa.github.io/sample-docs/img/PANTHER-LOGO_TRANSPARENT_BG.png"); background-repeat: no-repeat; background-position: left center; background-size: contain; }
 
 .site-button { display: flex; height: 100%; padding: 1rem; align-items: center; }
 
@@ -2247,3 +2249,4 @@ figure.highlight pre, figure.highlight code { padding: 0; margin: 0; border: 0; 
   .text-small { font-size: 8pt !important; }
   pre.highlight { border: 1px solid #eeebee; }
   .main { max-width: none; margin-left: 0; } }
+.main footer { background-image: url("../images/stripe3.png"); background-repeat: repeat; }
