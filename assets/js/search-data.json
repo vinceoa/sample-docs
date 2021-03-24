@@ -1,34 +1,70 @@
 {"0": {
+    "doc": "dashboard",
+    "title": "Overview",
+    "content": "The dashboard provides an overview of the current contents of your event console. ",
+    "url": "https://vinceoa.github.io/sample-docs/panther/dashboard#overview",
+    "relUrl": "/panther/dashboard#overview"
+  },"1": {
+    "doc": "dashboard",
+    "title": "Severities",
+    "content": "At the top of the dashboard, there is a row of counters for events processed in the event logs associated with each severity. These counters reflect the number of unique events logged, and will not increase if the same event log is processed multiple times. ",
+    "url": "https://vinceoa.github.io/sample-docs/panther/dashboard#severities",
+    "relUrl": "/panther/dashboard#severities"
+  },"2": {
+    "doc": "dashboard",
+    "title": "Event Groups",
+    "content": "Counters are displayed in this section for events matching any created event groups – along with one special counter for events having no associated group and another for all events processed. The counters reflect the total numbers of unique event log entries in each of the respective groups, with the coloured bars representing the relative proportions of events having each of the severity levels. The actual numerical breakdowns can be inspected by moving the mouse pointer over each row. ",
+    "url": "https://vinceoa.github.io/sample-docs/panther/dashboard#event-groups",
+    "relUrl": "/panther/dashboard#event-groups"
+  },"3": {
+    "doc": "dashboard",
+    "title": "Activity Stream",
+    "content": "The activity stream logs user interaction with Panther, including: . | Event acknowledgements and unacknowledgements | Event assignments | Event severity changes | Event clearances | Event deletions | . ",
+    "url": "https://vinceoa.github.io/sample-docs/panther/dashboard#activity-stream",
+    "relUrl": "/panther/dashboard#activity-stream"
+  },"4": {
+    "doc": "dashboard",
+    "title": "Inventory",
+    "content": "The inventory lists the names of hosts that have connected to Panther, and the last times they were seen. ",
+    "url": "https://vinceoa.github.io/sample-docs/panther/dashboard#inventory",
+    "relUrl": "/panther/dashboard#inventory"
+  },"5": {
+    "doc": "dashboard",
+    "title": "dashboard",
+    "content": " ",
+    "url": "https://vinceoa.github.io/sample-docs/panther/dashboard",
+    "relUrl": "/panther/dashboard"
+  },"6": {
     "doc": "getting started",
     "title": "hello",
     "content": " ",
     "url": "https://vinceoa.github.io/sample-docs/getting-started#hello",
     "relUrl": "/getting-started#hello"
-  },"1": {
+  },"7": {
     "doc": "getting started",
     "title": "getting started",
     "content": " ",
     "url": "https://vinceoa.github.io/sample-docs/getting-started",
     "relUrl": "/getting-started"
-  },"2": {
+  },"8": {
     "doc": "Home",
     "title": "more things",
-    "content": " ",
+    "content": "9e8c597898068ce60b3375c627e62cde387bb8ad . ",
     "url": "https://vinceoa.github.io/sample-docs/#more-things",
     "relUrl": "/#more-things"
-  },"3": {
+  },"9": {
     "doc": "Home",
     "title": "Home",
-    "content": "Getting started . ",
+    "content": "Getting started . «««&lt; HEAD . ======= . ",
     "url": "https://vinceoa.github.io/sample-docs/",
     "relUrl": "/"
-  },"4": {
+  },"10": {
     "doc": "rules",
     "title": "hello rules",
     "content": " ",
     "url": "https://vinceoa.github.io/sample-docs/panther/rules#hello-rules",
     "relUrl": "/panther/rules#hello-rules"
-  },"5": {
+  },"11": {
     "doc": "rules",
     "title": "rules",
     "content": " ",
