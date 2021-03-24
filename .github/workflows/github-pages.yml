@@ -23,11 +23,13 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "2.6"
+          bundle-cache: true
 
       - name: Install dependencies
         run: |
           gem install jekyll bundler
-          bundle install
+          bundle config path ${{ env.GEMS_PATH }}
+          bundle install --jobs 4 --retry 3
 
       - name: Build site
         run: |
