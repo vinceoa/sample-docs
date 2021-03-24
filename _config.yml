@@ -1,0 +1,27 @@
+permalink: pretty
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - SUPPORT.md
+  - SECURITY.md
+  - ps-docs.yaml
+  - ps-rule.yaml
+  - templates/
+  - .azure-pipelines/
+  - .vscode/
+  - src/
+  - tests/
+  - .devcontainer/
+  - docs/concepts/
+  - docs/commands/
+  - docs/release.md
+
+theme: just-the-docs
+color_scheme: nil
+plugins:
+  - jekyll-feed
+  - jekyll-spaceship
