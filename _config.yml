@@ -27,7 +27,7 @@ exclude:
   - vendor/bundle
 
 theme: just-the-docs
-color_scheme: nil
+color_scheme: panther
 plugins:
   - jekyll-feed
   - jekyll-spaceship
