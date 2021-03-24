@@ -24,6 +24,7 @@ exclude:
   - docs/concepts/
   - docs/commands/
   - docs/release.md
+  - vendor/bundle
 
 theme: just-the-docs
 color_scheme: nil
