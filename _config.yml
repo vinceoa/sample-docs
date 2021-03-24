@@ -7,6 +7,7 @@ permalink: pretty
 
 # Exclude from processing.
 exclude:
+  - _posts/
   - Dockerfile
   - docker-compose.yml
   - Gemfile
