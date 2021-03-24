@@ -2,31 +2,31 @@
     "doc": "getting started",
     "title": "hello",
     "content": " ",
-    "url": "/getting-started#hello",
+    "url": "https://vinceoa.github.io/sample-docs/getting-started#hello",
     "relUrl": "/getting-started#hello"
   },"1": {
     "doc": "getting started",
     "title": "getting started",
     "content": " ",
-    "url": "/getting-started",
+    "url": "https://vinceoa.github.io/sample-docs/getting-started",
     "relUrl": "/getting-started"
   },"2": {
     "doc": "Home",
     "title": "Home",
     "content": "Getting started . ",
-    "url": "/",
+    "url": "https://vinceoa.github.io/sample-docs/",
     "relUrl": "/"
   },"3": {
     "doc": "rules",
     "title": "hello rules",
     "content": " ",
-    "url": "/panther/rules#hello-rules",
+    "url": "https://vinceoa.github.io/sample-docs/panther/rules#hello-rules",
     "relUrl": "/panther/rules#hello-rules"
   },"4": {
     "doc": "rules",
     "title": "rules",
     "content": " ",
-    "url": "/panther/rules",
+    "url": "https://vinceoa.github.io/sample-docs/panther/rules",
     "relUrl": "/panther/rules"
   }
 }

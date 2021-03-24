@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: https://vinceoa.github.io/sample-docs/sitemap.xml
