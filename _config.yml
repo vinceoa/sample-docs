@@ -2,7 +2,7 @@ title: Docs for Panther
 email: your-email@example.com
 baseurl: "/sample-docs/" # the subpath of your site, e.g. /blog
 url: "https://vinceoa.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-
+logo: "/img/PANTHER-LOGO_TRANSPARENT_BG.png"
 permalink: pretty
 
 # Exclude from processing.
