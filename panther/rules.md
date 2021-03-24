@@ -1,7 +1,7 @@
 ---
 layout: home
 title: rules
-nav_order: 1
+nav_order: 3
 permalink: /panther/rules
 ---
 
