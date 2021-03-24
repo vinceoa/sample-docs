@@ -12,12 +12,12 @@ jobs:
       GEMS_PATH: vendor/bundle
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/cache@v2
-        with:
-          path: ${{ env.GEMS_PATH }}
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-gems-
+#      - uses: actions/cache@v2
+#        with:
+#          path: ${{ env.GEMS_PATH }}
+#          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+#          restore-keys: |
+#            ${{ runner.os }}-gems-
 
       - name: 💎 setup ruby
         uses: ruby/setup-ruby@v1
@@ -28,7 +28,7 @@ jobs:
       - name: Install dependencies
         run: |
           gem install jekyll bundler
-          bundle config path ${{ env.GEMS_PATH }}
+#          bundle config path ${{ env.GEMS_PATH }}
           bundle install --jobs 4 --retry 3
 
       - name: Build site
