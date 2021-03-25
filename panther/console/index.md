@@ -34,7 +34,7 @@ the following methods:
  * Shift click to add a sequence of events to your selection.
  * Press keyboard shortcut <kbd>ctrl</kbd>+<kbd>a</kbd> to select all events.
 
-![](./media/event-selection-multiple.mp4 ':include :type=video')
+![](./media/event-selection-multiple.mp4)
 
 Right click to display the context menu of actions 
 available for the selected events as outlined below.
@@ -48,7 +48,7 @@ bold text, unless a [rule](#rules) has been set that says otherwise.
 When an event is acknowledged from the right click menu, it will
 automatically be assigned to the user.
 
-![](./media/event-right-click-ack-unack.mp4 ':include :type=video')
+![](./media/event-right-click-ack-unack.mp4)
 
 Users can also acknowledge and unacknowledge events from the
 [event details](#event-details) dialogue box.
