@@ -2255,3 +2255,5 @@ figure.highlight pre, figure.highlight code { padding: 0; margin: 0; border: 0; 
 .side-bar { color: #ccc; }
 .side-bar nav { color: #ccc; }
 .side-bar .nav-list-link { color: #000; }
+
+#markdown-toc::before { content: "Contents"; margin-left: -1rem; line-height: 200%; font-weight: bold; font-size: 1.125em; }
