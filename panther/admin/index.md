@@ -6,6 +6,9 @@ permalink: /panther/admin
 parent: Panther
 ---
 
+* TOC
+{:toc}
+
 ## Introduction
 
 Users who are members of the "admin" group may carry out

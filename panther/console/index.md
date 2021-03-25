@@ -8,6 +8,9 @@ parent: Panther
 
 ![](media/panther-console.png)
 
+* TOC
+{:toc}
+
 ## Overview
 
 The console is the main feature of Panther. It contains the system

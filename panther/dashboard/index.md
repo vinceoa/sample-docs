@@ -6,6 +6,9 @@ permalink: /panther/dashboard
 parent: Panther
 ---
 
+* TOC
+{:toc}
+
 ## Overview
 
 The dashboard provides an overview of the current contents of your event console.
