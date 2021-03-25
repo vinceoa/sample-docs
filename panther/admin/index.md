@@ -71,7 +71,7 @@ configured address.
 
 ## API Keys
 
-Panther also offers [an API](/api/) to import event logs.
+Panther also offers [an API](../api/) to import event logs.
 
 For security, registered users must supply unique keys when using this
 method to transfer data to Panther.
@@ -81,7 +81,7 @@ clicking the `Generate` button.
 
 ![](./media/apigeneration.png "Generating an api key")
 
-See [the API documentation](/api/) for more information.
+See [the API documentation](../api/) for more information.
 
 ## Delete All Events
 

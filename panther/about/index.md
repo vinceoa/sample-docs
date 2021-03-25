@@ -1,8 +1,9 @@
 ---
 layout: home
-title: about
-nav_order: 3
+title: About
+nav_order: 1
 permalink: /panther/about
+has_children: true
 ---
 
 ## Background
