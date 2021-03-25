@@ -17,3 +17,11 @@
   }
   color: #ccc;
 }
+
+#markdown-toc::before {
+  content: "Contents";
+  margin-left: -$spacing-unit;
+  line-height: 200%;
+  font-weight: bold;
+  font-size: 1em * 1.125;
+}
