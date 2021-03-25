@@ -10,6 +10,9 @@
 <loc>https://vinceoa.github.io/sample-docs/panther/api</loc>
 </url>
 <url>
+<loc>https://vinceoa.github.io/sample-docs/panther/settings</loc>
+</url>
+<url>
 <loc>https://vinceoa.github.io/sample-docs/panther/admin</loc>
 </url>
 <url>
@@ -32,5 +35,8 @@
 </url>
 <url>
 <loc>https://vinceoa.github.io/sample-docs/</loc>
+</url>
+<url>
+<loc>https://vinceoa.github.io/sample-docs/panther/rules/selection</loc>
 </url>
 </urlset>
