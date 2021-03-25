@@ -25,7 +25,7 @@
   },"4": {
     "doc": "api",
     "title": "api",
-    "content": " ",
+    "content": ". | Introduction | Creating an Event . | API Key | Node | Tag | Summary | Severity | . | Sending an Event | Example | . ",
     "url": "https://vinceoa.github.io/sample-docs/panther/api",
     "relUrl": "/panther/api"
   },"5": {
@@ -79,7 +79,7 @@
   },"13": {
     "doc": "admin",
     "title": "admin",
-    "content": " ",
+    "content": ". | Introduction | User Administration . | Creating User Accounts | Modifying User Accounts . | Deleting Users | Changing Email Addresses | Resetting Passwords | . | . | API Keys | Delete All Events | Integrations | Console Fields | . ",
     "url": "https://vinceoa.github.io/sample-docs/panther/admin",
     "relUrl": "/panther/admin"
   },"14": {
@@ -127,7 +127,7 @@
   },"21": {
     "doc": "views",
     "title": "views",
-    "content": " ",
+    "content": ". | Overview | Adding Views . | Name | Field | Value . | String | Regular Expression | Number | . | Deleting a View | The Default View | . | . ",
     "url": "https://vinceoa.github.io/sample-docs/panther/views",
     "relUrl": "/panther/views"
   },"22": {
@@ -175,7 +175,7 @@
   },"29": {
     "doc": "rules",
     "title": "rules",
-    "content": " ",
+    "content": ". | Overview . | Processing order | . | Global Rules | Group Rules | Schedules | Syslog Mappings . | Default Event Identifier | Severity Mapping | Field Transform | Agent Rules | . | HTTP | Details . | Rule Order | Shortcut helpers . | syslog_mapping | deduplicate | discard / discard_last | . | . | . ",
     "url": "https://vinceoa.github.io/sample-docs/panther/rules",
     "relUrl": "/panther/rules"
   },"30": {
@@ -217,7 +217,7 @@
   },"36": {
     "doc": "console",
     "title": "console",
-    "content": ". ",
+    "content": ". | Overview | Events . | Acknowledge and Unacknowledge | Add External ID | Add Note | Clear | Assign | Severity | Details | Copy Event | Tools | . | Event Details . | Details | Notes | History | Fields | Matches | . | Activity | Filters . | Group | View | Severity | Multiple Filters | . | Keyboard Shortcuts . | Select next event | Add event to selection | Delete the selected events | Open the events detailed information | Select all events in your view | Clear selection | Copy selected rows to clipboard | Assign the selected events to a user | Clear selected events | Toggle the Acknowledged flag of the event | Set the severity for selected events | Show the help dialogue | . | . ",
     "url": "https://vinceoa.github.io/sample-docs/panther/console",
     "relUrl": "/panther/console"
   },"37": {
@@ -253,7 +253,7 @@
   },"42": {
     "doc": "About",
     "title": "About",
-    "content": " ",
+    "content": ". | Background . | Example Events | . | Architecture | ITSM Event Management | ITSM Incident Management | Note | . ",
     "url": "https://vinceoa.github.io/sample-docs/panther/about",
     "relUrl": "/panther/about"
   },"43": {
@@ -289,7 +289,7 @@
   },"48": {
     "doc": "Getting Started",
     "title": "Getting Started",
-    "content": " ",
+    "content": ". | Introduction . | Using Panther for the First Time | Anatomy of an Event | . | Set Up Event Sources . | Logging Software | REST API | Graylog (future) | SNMP Trap (future) | . | Event Source Examples | Configure a Global Rule | Configure a Group rule | . ",
     "url": "https://vinceoa.github.io/sample-docs/panther/getting-started",
     "relUrl": "/panther/getting-started"
   },"49": {
@@ -325,7 +325,7 @@
   },"54": {
     "doc": "dashboard",
     "title": "dashboard",
-    "content": " ",
+    "content": ". | Overview | Severities | Event Groups | Activity Stream | Inventory | . ",
     "url": "https://vinceoa.github.io/sample-docs/panther/dashboard",
     "relUrl": "/panther/dashboard"
   },"55": {
