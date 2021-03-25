@@ -1,11 +1,14 @@
 ---
 layout: home
 title: views
-nav_order: 3
+nav_order: 4
 permalink: /panther/views
+parent: Panther
 ---
 
 # Overview
+
+![](media/panther-view.png)
 
 Views provide simple, configurable match criteria which may be used
 with the [console filters](/console/README#view) to narrow down the

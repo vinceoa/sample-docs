@@ -3,7 +3,7 @@ layout: home
 title: rules
 nav_order: 3
 permalink: /panther/rules
-parent: panther
+parent: Panther
 has_children: true
 ---
 

@@ -1,11 +1,14 @@
 ---
 layout: home
 title: api
-nav_order: 3
+nav_order: 5
 permalink: /panther/api
+parent: Panther
 ---
 
 ## Introduction
+
+![](media/panther-api.png)
 
 The API Console is a straightforward way to begin using the Panther
 API to submit event logs over HTTP.

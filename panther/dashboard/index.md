@@ -1,8 +1,9 @@
 ---
 layout: home
 title: dashboard
-nav_order: 3
+nav_order: 1
 permalink: /panther/dashboard
+parent: Panther
 ---
 
 ## Overview

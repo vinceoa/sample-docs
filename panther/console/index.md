@@ -1,9 +1,12 @@
 ---
 layout: home
 title: console
-nav_order: 3
+nav_order: 2
 permalink: /panther/console
+parent: Panther
 ---
+
+![](media/panther-console.png)
 
 ## Overview
 

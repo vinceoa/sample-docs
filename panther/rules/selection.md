@@ -4,6 +4,7 @@ title: Event selection
 nav_order: 3
 permalink: /panther/rules/selection
 parent: rules
+grand_parent: Panther
 ---
 
 
