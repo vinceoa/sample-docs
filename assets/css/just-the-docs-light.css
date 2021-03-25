@@ -2249,4 +2249,9 @@ figure.highlight pre, figure.highlight code { padding: 0; margin: 0; border: 0; 
   .text-small { font-size: 8pt !important; }
   pre.highlight { border: 1px solid #eeebee; }
   .main { max-width: none; margin-left: 0; } }
-.main footer { background-image: url("../images/stripe3.png"); background-repeat: repeat; }
+.main footer { background-image: url("../images/stripe3.png"); background-repeat: repeat; color: #ccc; }
+.main footer a { color: #ccc; }
+
+.side-bar { color: #ccc; }
+.side-bar nav { color: #ccc; }
+.side-bar .nav-list-link { color: #000; }
