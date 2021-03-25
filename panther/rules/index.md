@@ -3,6 +3,7 @@ layout: home
 title: rules
 nav_order: 3
 permalink: /panther/rules
+parent: panther
 has_children: true
 ---
 
@@ -17,12 +18,31 @@ Panther console.
 Events are received from an external source, processed by user defined
 rules, and finally stored on the Panther server.
 
-![](./media/panther-flow.svg)
+@startuml
+cloud "event source" as c1
+cloud "Panther" as pan {
+  agent "Monitor" as mon
+  agent "Rules" as rules
+  database storage
+
+} 
+
+c1 -right-> mon
+mon -right-> rules
+rules -right-> storage
+@enduml
 
 
 ### Processing order
 
-![](./media/RuleFlow.svg)
+@startuml
+agent "Agent Rules" as a1
+agent "Global Rules" as a2
+agent "Group Rules" as a3
+
+a1 --> a2
+a2 --> a3
+@enduml
 
 The set of [Syslog Mappings](#syslog-mappings) are processed first,
 followed by the [Global Rules](#global-rules) and, finally, any optional

@@ -4,11 +4,11 @@
 
 layout: home
 title: Home
-nav_order: 1
+nav_order: 0
 permalink: /
 ---
 
-[Getting started](/getting-started)
+[Getting started](./panther/getting-started)
 
-![Panther Logo]({{site.baseurl}}/img/PANTHER_LOGO_LARGE_1700x800.png)
+![Panther Logo]({{site.baseurl}}/img/PANTHER-LOGO_TRANSPARENT_BG.png)
 

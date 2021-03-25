@@ -2,5 +2,19 @@
   footer {
     background-image: url("../images/stripe3.png");
     background-repeat: repeat;
+    color: #ccc;
+    a {
+      color: #ccc;
+    }
   }
+}
+
+.side-bar {
+  nav {
+    color: #ccc;
+  }
+  .nav-list-link {
+    color: #000;
+  }
+  color: #ccc;
 }

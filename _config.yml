@@ -31,6 +31,28 @@ color_scheme: panther
 plugins:
   - jekyll-feed
   - jekyll-spaceship
+  - jekyll-sitemap
+
+jekyll-spaceship:
+  processors:
+    - table-processor
+    - mathjax-processor
+    - plantuml-processor
+    - mermaid-processor
+    - polyfill-processor
+    - media-processor
+    - emoji-processor
+    - element-processor
+  mermaid-processor:
+    mode: default # mode value 'pre-fetch' for fetching image at building stage or 'default'
+    css:
+      class: mermaid
+    syntax:
+      code: "mermaid!"
+      custom: ["@startmermaid", "@endmermaid"]
+    config:
+      theme: default
+    src: https://mermaid.ink/svg/
 
 gh_edit_link: true # show or hide edit this page link
 gh_edit_link_text: "Edit this page on GitHub."
@@ -38,3 +60,11 @@ gh_edit_repository: "https://github.com/vinceoa/sample-docs" # the github URL fo
 gh_edit_branch: "master" # the branch that your docs is served from
 # gh_edit_source: docs # the source that your files originate from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
+
+aux_links_new_tab: true
+aux_links:
+  "Open Answers":
+    - "//openanswers.co.uk"
+
+panther:
+  baseurl: app.panther.support
