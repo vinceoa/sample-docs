@@ -11,10 +11,10 @@ parent: Panther
 
 # Overview
 
-![](media/panther-view.png)
+![Panther View](./media/panther-view.png)
 
 Views provide simple, configurable match criteria which may be used
-with the [console filters](../console#view) to narrow down the
+with the [console filters](../console/index.md#view) to narrow down the
 events displayed to useful sub-sets. For example, the `Mine` view
 provided by default displays events assigned to the current user.
 
