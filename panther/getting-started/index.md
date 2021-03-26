@@ -9,7 +9,7 @@ permalink: /panther/getting-started
 {:toc}
 
 ## Introduction
-The (beta) cloud-based version of Panther is accessible at [app.panther.support](//app.panther.support). After a simple Sign-up process your dedicated secure Panther instance will be automatically provisioned within the Panther Cloud. When signing-up you will be asked to choose a unique name for your Console which will then be accessible at https://{your-console-name}.app.panther.support.
+The (beta) cloud-based version of Panther is accessible at [app.panther.support](//app.panther.support). After a simple Sign-up process your dedicated secure Panther instance will be automatically provisioned within the Panther Cloud. When signing-up you will be asked to choose a unique name for your Console which will then be accessible at https://{**your-console-name**}.[app.panther.support](//app.panther.support).
 
 ![Panther Architecture diagram](../../img/PantherArchitecture.png)
 
@@ -92,13 +92,13 @@ More details on this are available in [the API section](../api).
 The freely available software packages listed below can act as event
 sources for Panther.
 
-| Software                                                          | Official Website                                               | Panther Configuration                                                   |
-| ----------------------------------------------------------------- | -------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| ![NXLog](./media/nxlog-logo.png){:height="30px" width="80px"}     | [Documentation](https://nxlog.co/documentation)                | [Linux](../config#nxlog-linux), [Windows](/config/README#nxlog-windows) |
-| ![Rsyslog](./media/rsyslog-logo.png){:height="30px" width="80px"} | [Documentation](https://www.rsyslog.com/doc/master/index.html) | [Linux](../config#rsyslog-linux)                                        |
-| Syslog-ng                                                         | TODO                                                           | TODO                                                                    |
-| Log4j                                                             | TODO                                                           | TODO                                                                    |
-| Log4Net                                                           | TODO                                                           | TODO                                                                    |
+| Software                                                          | Official Website                                               | Panther Configuration                                              |
+| ----------------------------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------ |
+| ![NXLog](./media/nxlog-logo.png){:height="30px" width="80px"}     | [Documentation](https://nxlog.co/documentation)                | [Linux](../config#nxlog-linux), [Windows](../config#nxlog-windows) |
+| ![Rsyslog](./media/rsyslog-logo.png){:height="30px" width="80px"} | [Documentation](https://www.rsyslog.com/doc/master/index.html) | [Linux](../config#rsyslog-linux)                                   |
+| Syslog-ng                                                         | TODO                                                           | TODO                                                               |
+| Log4j                                                             | TODO                                                           | TODO                                                               |
+| Log4Net                                                           | TODO                                                           | TODO                                                               |
 
 Examples of approaches that can be used to monitor infrastructure and applications.
 

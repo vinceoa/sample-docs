@@ -136,7 +136,7 @@ for .*` to the Operating System group and setting the severity to 3.
 ![](./media/CreateGroupRule5.png)
 
 An example of this group rule being used is shown in the
-[API](/api/README#example) section.
+[API](../api#example) section.
 
 ## Schedules
 
