@@ -1,6 +1,6 @@
 ---
 layout: home
-title: rules
+title: Rules
 nav_order: 3
 permalink: /panther/rules
 parent: Panther
@@ -63,13 +63,14 @@ service.
 To implement this example:
 
 1. Create a new rule
-![](./media/CreateGlobalRule7.png)
+   
+    ![](./media/CreateGlobalRule7.png)
 
 2. Enter a name for the rule and choose a selector from the drop down
 menu. In this case, use `match` to check for a string in the summary
 of the event.
 
-![](./media/CreateGlobalRule4.png)
+    ![](./media/CreateGlobalRule4.png)
 
 3. Select a field, in this case the summary field of the log event.
 
@@ -77,10 +78,12 @@ of the event.
 case, the message is `/detected your registry/`.
 
 5. The action to select is to delete the event log from the console.
-![](./media/CreateGlobalRule6.png)
+
+    ![](./media/CreateGlobalRule6.png)
 
 6. Save the new rule and click deploy to forward the changes to the server.
-![](./media/CreateGlobalRule9.png)
+
+    ![](./media/CreateGlobalRule9.png)
 
 
 ## Group Rules
@@ -98,12 +101,14 @@ them to the relevant teams.
 To create a new group rule:
 
 1. Create a new group
-![](./media/CreateGroupRule1.png)
+
+    ![](./media/CreateGroupRule1.png)
 
 2. Enter the name of the group you want to make. In this case there
 are two groups -- one named Operating System and one named Apache Web
 Service.
-![](./media/CreateGroupRule2.png)
+
+    ![](./media/CreateGroupRule2.png)
 
 3. To match any event log with this group, set a rule in the group
 selector. In this case, the rule is going to check the tag of the
@@ -111,55 +116,35 @@ event log for the string `os`. Once this match has been found, it will
 run through the rules in the group one by one against the event log
 entry, carrying out any processing required.
 To do this, click on the pencil to open up the group selector.
-![](./media/GroupSelector.png)
+
+    ![](./media/GroupSelector.png)
 
 4. Create a rule to match the tag field with the word `os`, and save it.
-![](./media/tagos.png)
+  
+    ![](./media/tagos.png)
 
 5. The new group selector can now match event logs containing the
 `os` tag against any rules in the group.  To create a new rule for the
 group, click on the down arrow for it and select 'Create a rule
 for...'
-![](./media/CreateGroupRule33.png)
+
+    ![](./media/CreateGroupRule33.png)
 
 6. This section is very similar to the `Global Rule` section. In this
 example, create a rule to log and group any failed `su`
 authentication events.
 
-![](./media/CreateGroupRule444.png)
-
-This rule is sending any event log that contains the string `FAILED su
-for .*` to the Operating System group and setting the severity to 3.
+    ![](./media/CreateGroupRule444.png)
+    This rule is sending any event log that contains the string `FAILED su for .*` to the Operating System group and setting the severity to 3.
 
 7. Click `Save` and enable the deployment to the server.
-
-![](./media/CreateGroupRule5.png)
+   
+    ![](./media/CreateGroupRule5.png)
 
 An example of this group rule being used is shown in the
 [API](../api#example) section.
 
-## Schedules
 
-Schedules can be used to specify specific times of the week, enabling Rules to only match under those conditions.
-
-![](./media/Schedules.png)
-
-The `Name` is used to identify the schedule when editing Rules or Groups.  It must be unique.
-
-`Start` and `End` specify a time range in the format of `HH:MM`. If the `Start` time is after the `End` time then the following conditions shall match:
-
- + From midnight to the `End` time
- + From the `Start` time till midnight 
-
-Days of the week can be chosen with the checkboxes
-
- + *S*unday
- + *M*onday
- + *T*uesday
- + *W*ednesday
- + *T*hursday
- + *F*riday
- + *S*aturday
 
 ## Syslog Mappings
 
@@ -211,8 +196,6 @@ necessary.
 
 If you have an idea for a transform you would like added, please let us know.
 TODO - really?
-
-### Agent Rules
 
 
 ## HTTP

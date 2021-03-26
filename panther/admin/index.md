@@ -1,6 +1,6 @@
 ---
 layout: home
-title: admin
+title: Admin
 nav_order: 6
 permalink: /panther/admin
 parent: Panther

@@ -1,21 +1,20 @@
 .main {
   footer {
-    background-color: #000;
-    color: #ccc;
-    a {
-      color: #ccc;
+    background-color: $body-background-color;
+    color: white a {
+      color: whitesmoke;
     }
   }
 }
 
 .side-bar {
   nav {
-    color: #ccc;
+    //color: #ccc;
   }
   .nav-list-link {
     //color: #000;
   }
-  color: #ccc;
+  // color: rgb(221, 220, 220);
 }
 
 #markdown-toc::before {

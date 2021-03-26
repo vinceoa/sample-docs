@@ -1,6 +1,6 @@
 ---
 layout: home
-title: console
+title: Console
 nav_order: 2
 permalink: /panther/console
 parent: Panther
