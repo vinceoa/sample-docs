@@ -26,7 +26,7 @@ All users should read the general advice in the introduction, but then
 refer to the relevant sections for their own specific software.
 
  * [Introduction (all systems)](#introduction)
- * [Download configuration archive (all systems)](#download)
+ * [Download configuration archive (all systems)](#rsyslog-configuration)
  * [Rsyslog (linux)](#rsyslog-linux)
  * [NXLog (linux)](#nxlog-linux)
  * [NXLog (windows)](#nxlog-windows)
@@ -52,18 +52,17 @@ archive, to load it in a suitable location for the software, and to
 carry out any remaining package or system specific tasks.
 
 <a name="download" id="download"></a>
-
-## Downloading Configuration Archive
+## Downloading Configuration Archive 
 
 The configuration archives are available on the `Admin` page. Select
 this using the tab from the main menu at the top of the Panther page.
 
-![](_media/console-admin-page.png "Select the admin page")
+![Select the admin page](./media/console-admin-page.png)
 
 The drop-down selector offers archives for the supported software and
 operating systems.
 
-![](_media/console-admin-download.png "Download the configuration archive")
+![Download the configuration archive](./media/console-admin-download.png)
 
 Select the appropriate option for your client and click the `Download`
 button.

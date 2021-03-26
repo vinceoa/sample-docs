@@ -71,7 +71,7 @@ until a background task deletes them.
 ### Assign
 
 Events can be assigned to console users, who can then see them in the
-[view](#views) page under the `Mine` user view.
+[view](../views/index.md) page under the `Mine` user view.
 
 ### Severity
 
@@ -115,7 +115,7 @@ also be seen by other users.
 ### History
 
 Any activity that has occurred on the event can be seen in the
-`history` tab. This will include any [rules](#rules) that have been
+`history` tab. This will include any [rules](../rules/index.md) that have been
 used during the event processing, and any actions taken by users from
 the console.
 
@@ -126,7 +126,7 @@ All data associated with events may be inspected on the `fields` tab.
 ### Matches
 
 The `matches` tab reports whether the events match any global or group
-[rules](#rules).
+[rules](../rules/index.md).
 
 ## Activity
 
@@ -141,7 +141,7 @@ be applied to display events matching a number of criteria.
 ### Group
 
 Selecting a group from the drop-down menu will filter all events to
-just the group set up in the user's [rules](#rules).
+just the group set up in the user's [rules](../rules/group.md).
 
 There are two special groups -- `All` will display every event and `No
 Group` will display any events that have not been categorized.

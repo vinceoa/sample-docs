@@ -11,7 +11,7 @@ parent: Panther
 
 ## Introduction
 
-![](media/panther-api.png)
+![Panther API screen](media/panther-api.png)
 
 The API Console is a straightforward way to begin using the Panther
 API to submit event logs over HTTP.
@@ -81,27 +81,31 @@ works to put a log containing `FAILED su` in its summary into the
 `Operating System` group.
 
 1. Select an API key from the drop-down box.
-![](./media/apistep1.png)
+   
+    ![API key selection](./media/apistep1.png)
 
 2. To create an event that will handled by the `Operating System`
 group, the `Tag` for the event must be `os` and the `Summary` must
 include the string `FAILED su for`. The `Node` can be any string
 value, and the severity level can be any value from 0 to 5, because a
 new value will be set by the group rule.
-![](./media/apistep2.png)
 
-Notice that the contents of the `Request Body` and `Curl` sections
-change as the input fields are set.
-![](./media/apistep3.png)
+    ![](./media/apistep2.png)
+
+    Notice that the contents of the `Request Body` and `Curl` sections change as the input fields are set.
+
+    ![](./media/apistep3.png)
 
 3. Once fields have been set, click the `Send` button. The `Response
 Body` section will update with the reply from Panther, indicating
 whether the request was successful or if there was a problem.
-![](./media/apistep4.png)
+
+    ![](./media/apistep4.png)
 
 4. If all went well, the new entry should be in the console along with
 all the other event logs.
-![](./media/apistep5.png)
+
+    ![](./media/apistep5.png)
 
 If the the custom group rule has been applied, the group will be set
 to `Operating System` and the severity will be set to `3` - which is
