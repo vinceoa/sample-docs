@@ -3,7 +3,6 @@ layout: home
 title: About
 nav_order: 1
 permalink: /panther/about
-has_children: true
 ---
 
 * TOC
