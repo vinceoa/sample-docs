@@ -5,6 +5,7 @@ gem "jekyll", ">= 3.9"
 
 gem "just-the-docs", "~> 0.3.3"
 gem "github-pages", group: :jekyll_plugins
+gem "html-proofer"
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
