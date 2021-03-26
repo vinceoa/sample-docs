@@ -511,7 +511,7 @@
   },"85": {
     "doc": "Rules file (yaml)",
     "title": "When using docker-compose.yml",
-    "content": "A docker volume will have been created, the name is comprised of two parts. &lt;directory-name&gt;_rules_vol . For example if your docker-compose.yml is in a directory called panther then the docker volume will be called panther_rules-vol . ",
+    "content": "A docker volume will have been created, the name is comprised of two parts. &lt;directory-name&gt;_rules_vol . For example if your docker-compose.yml is in a directory called panther then the docker volume will be called panther_rules-vol . e.g. [root@localhost ~]# ls -l /var/lib/docker/volumes/panther-core_rules-vol/_data/ total 14 -rw-r--r-- 1 ansible ansible 588 Jul 7 2020 http.rules.yml -rw-r--r-- 1 ansible ansible 860 Jul 7 2020 server.rules.yml -rw-r--r-- 1 ansible ansible 2256 Jul 7 2020 syslogd.rules.yml . ",
     "url": "https://vinceoa.github.io/sample-docs/panther/rules/schedules#when-using-docker-composeyml",
     "relUrl": "/panther/rules/schedules#when-using-docker-composeyml"
   },"86": {
@@ -523,7 +523,7 @@
   },"87": {
     "doc": "Rules file (yaml)",
     "title": "When running the source code",
-    "content": "The rules are located under rules/ . ",
+    "content": "The rules are located under rules/ . e.g. [root@localhost panther-core]# ls -l rules/ total 23 -rw-r--r-- 1 vinceoa vinceoa 588 Feb 23 11:36 http.rules.yml -rw-r--r-- 1 vinceoa vinceoa 815 Mar 26 16:12 server.rules.yml -rw-r--r-- 1 vinceoa vinceoa 2256 Feb 23 11:36 syslogd.rules.yml . ",
     "url": "https://vinceoa.github.io/sample-docs/panther/rules/schedules#when-running-the-source-code",
     "relUrl": "/panther/rules/schedules#when-running-the-source-code"
   },"88": {
