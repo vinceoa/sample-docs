@@ -2249,10 +2249,6 @@ figure.highlight pre, figure.highlight code { padding: 0; margin: 0; border: 0; 
   .text-small { font-size: 8pt !important; }
   pre.highlight { border: 1px solid #44434d; }
   .main { max-width: none; margin-left: 0; } }
-.main footer { background-color: #000; color: #ccc; }
-.main footer a { color: #ccc; }
-
-.side-bar { color: #ccc; }
-.side-bar nav { color: #ccc; }
+.main footer { background-color: #27262b; color: white a; color-color: whitesmoke; }
 
 #markdown-toc::before { content: "Contents"; margin-left: -1rem; line-height: 200%; font-weight: bold; font-size: 1.125em; }
