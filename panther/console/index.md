@@ -4,6 +4,7 @@ title: Console
 nav_order: 2
 permalink: /panther/console
 parent: Panther
+has_children: true
 ---
 
 ![](media/panther-console.png)
@@ -167,65 +168,4 @@ monitor specific kinds of events.
 For example, it is possible to view all critical alerts that are
 assigned to a particular user and match the rules for a configured
 group.
-
-## Keyboard Shortcuts
-
-### Select next event
-
-<kbd>up</kbd>/<kbd>down</kbd>
-
-
-### Add event to selection
-
-<kbd>shift</kbd> + <kbd>up</kbd> / <kbd>shift</kbd> + <kbd>down</kbd>
-
-
-### Delete the selected events
-
-<kbd>backspace</kbd> / <kbd>delete</kbd>
-
-
-### Open the events detailed information
-
-<kbd>enter</kbd> / <kbd>return</kbd> 
-
-
-### Select all events in your view
-
-<kbd>ctrl</kbd> + <kbd>a</kbd> 
-
-
-### Clear selection
-
-<kbd>escape</kbd>
-
-
-### Copy selected rows to clipboard
-
-<kbd>ctrl</kbd> + <kbd>c</kbd>
-
-
-### Assign the selected events to a user
-
-<kbd>a</kbd> 
-
-
-### Clear selected events
-
-<kbd>c</kbd>
-
-
-### Toggle the Acknowledged flag of the event
-
-<kbd>k</kbd>
-
-
-### Set the severity for selected events
-
-<kbd>s</kbd>
-
-
-### Show the help dialogue
-
-<kbd>?</kbd> / <kbd>h</kbd>
 

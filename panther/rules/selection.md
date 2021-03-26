@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Event selection
-nav_order: 2
+nav_order: 7
 permalink: /panther/rules/selection
 parent: Rules
 grand_parent: Panther

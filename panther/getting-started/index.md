@@ -18,10 +18,13 @@ The (beta) cloud-based version of Panther is accessible at [app.panther.support]
 Login for the first time as the user `admin` using the password that was used during Sign-up - this is the default user account that will be used to [administer](../admin/) Panther for the first time.
 
 The first screen that you will see is the [Dashboard](../dashboard/#overview), which will look like this:
+
 ![](./media/DashboardFirstTime.png)
 
 Clicking on `Open Console` will take you to the [Console](../console/#overview), which will look like this:
+
 ![](./media/ConsoleFirstTime.png)
+
 ... this example shows that the Panther instance currently has two events in it. These particular messages are coming from the instance's _internal_ `syslogd` and `http` agents which will send periodic "keep-alive" events to indicate that they are healthy. Here, `Agent http is alive` and `Agent syslogd` are the details of the event, contained within the `summary` field (see next section). Double-click on an event to explore it a bit more.
 
 ### Anatomy of an Event
@@ -47,7 +50,7 @@ A Panther Event is comprised of a number of data fields that are analagous to [T
 
 By default, a unique Event is defined by the combination of the fields: `{node}:{severity}:{tag}:{summary}`.
 
-Multiple events that have the same values for these fields will be treated as the same event, with a counter (`tally`) incremented for each occurrence. Simple [Rules](../rules/#overview) can be used to adjust the contents of these fields (for example, to remove unique data from the `summary` field) which allows Events to be __de-duplicated__ and __enriched__, making them easy to manage.
+Multiple events that have the same values for these fields will be treated as the same event, with a counter (`tally`) incremented for each occurrence. Simple [Rules](../rules#overview) can be used to adjust the contents of these fields (for example, to remove unique data from the `summary` field) which allows Events to be __de-duplicated__ and __enriched__, making them easy to manage.
 
 Double-click on an event and select `Fields` to see its full contents:
 
@@ -112,8 +115,8 @@ Examples of approaches that can be used to monitor infrastructure and applicatio
 
 ## Configure a Global Rule
 
-Global rules are rules that will be applied to every event log that is received by Panther. By default, you will have some syslog rules and a simple example. There is a tutorial for adding further global rules in the [Rules](../rules#global-rules) section.
+Global rules are rules that will be applied to every event log that is received by Panther. By default, you will have some syslog rules and a simple example. There is a tutorial for adding further global rules in the [Rules](../rules/global) section.
 
 ## Configure a Group rule
 
-There is a tutorial on setting up group rules in the [Rules](../rules#group-rules) section, along with a working example in the [API](../api#example) section.
+There is a tutorial on setting up group rules in the [Rules](../rules/group) section, along with a working example in the [API](../api#example) section.
