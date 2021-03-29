@@ -44,7 +44,7 @@ available for the selected events as outlined below.
 ### Acknowledge and Unacknowledge
 
 New events will be in an unacknowledged state by default, displayed in
-bold text, unless a [rule](#rules) has been set that says otherwise.
+bold text, unless a [rule](../rules/index.md) has been set that says otherwise.
 
 When an event is acknowledged from the right click menu, it will
 automatically be assigned to the user.
@@ -52,7 +52,7 @@ automatically be assigned to the user.
 ![right click to unack](./media/event-right-click-ack-unack.mp4)
 
 Users can also acknowledge and unacknowledge events from the
-[event details](./index.md#event-details) dialogue box.
+[event details](#event-details) dialogue box.
 
 ### Add External ID
 

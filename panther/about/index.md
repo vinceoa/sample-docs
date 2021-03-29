@@ -36,7 +36,7 @@ By surfacing events of all types in one place, in a way that makes them easy to 
 | Network event          | Switch detected spanning-tree loop                         |
 
 ## Architecture
-The (beta) cloud-based version of Panther is a service that ingests events received from TLS-secured authenticated sources using the Syslog protocol or Panther [API](../api#introduction). The [Console](../console#overview) provides a rich set of features that allow you to manage events and configure the service using a web browser.
+The (beta) cloud-based version of Panther is a service that ingests events received from TLS-secured authenticated sources using the Syslog protocol or Panther [API](../api/index.md#introduction). The [Console](../console/index.md#overview) provides a rich set of features that allow you to manage events and configure the service using a web browser.
 
 ![](../../img/PantherArchitecture.png ':size=700')
 

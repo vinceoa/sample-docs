@@ -46,8 +46,8 @@ a2 --> a3
 @enduml
 
 The set of [Syslog Mappings](#syslog-mappings) are processed first,
-followed by the [Global Rules](#global-rules) and, finally, any optional
-[Groups Rules](#group-rules).
+followed by the [Global Rules](./global.md#global-rules) and, finally, any optional
+[Groups Rules](./group.md#group-rules).
 
 
 

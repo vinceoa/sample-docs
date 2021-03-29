@@ -15,7 +15,7 @@ The (beta) cloud-based version of Panther is accessible at [app.panther.support]
 
 ### Using Panther for the First Time
 
-Login for the first time as the user `admin` using the password that was used during Sign-up - this is the default user account that will be used to [administer](../admin/) Panther for the first time.
+Login for the first time as the user `admin` using the password that was used during Sign-up - this is the default user account that will be used to [administer](../admin/index.md) Panther for the first time.
 
 The first screen that you will see is the [Dashboard](../dashboard/index.md#overview), which will look like this:
 
@@ -76,7 +76,7 @@ Panther `admin` page.
 
 More detailed information on the download procedure is available,
 along with configuration guides for each supported system, in the
-[client configuration section](../config).
+[client configuration section](../config/index.md).
 
 ### REST API
 
@@ -84,7 +84,7 @@ For use cases where programmatic control is needed over the submission
 of event log entries, Panther provides an HTTP based REST API,
 incorporating a key for security.
 
-More details on this are available in [the API section](../api).
+More details on this are available in [the API section](../api/index.md).
 
 ### Graylog (future)
 
@@ -115,8 +115,8 @@ Examples of approaches that can be used to monitor infrastructure and applicatio
 
 ## Configure a Global Rule
 
-Global rules are rules that will be applied to every event log that is received by Panther. By default, you will have some syslog rules and a simple example. There is a tutorial for adding further global rules in the [Rules](../rules/global) section.
+Global rules are rules that will be applied to every event log that is received by Panther. By default, you will have some syslog rules and a simple example. There is a tutorial for adding further global rules in the [Rules](../rules/global.md) section.
 
 ## Configure a Group rule
 
-There is a tutorial on setting up group rules in the [Rules](../rules/group) section, along with a working example in the [API](../api#example) section.
+There is a tutorial on setting up group rules in the [Rules](../rules/group.md) section, along with a working example in the [API](../api/index.md#example) section.
