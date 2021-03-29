@@ -8,19 +8,29 @@ grand_parent: Panther
 layout: template
 ---
 
-# Agents
+# Overview
+
 There are two Panther event receivers:
  - Syslog
  - HTTP
 
+Events flow throught the each agent before being processed by the [global](../rules/global.md) and [group](../rules/group.md) rules.
 
+@startuml
 
-## Syslog 
+"Default Event Identifier" -right-> "Field Mapping"
+-right-> "Agent Specific"
+-right-> "Field transformations"
 
-Syslog message fields need to be mapped to event console fields. These fields
-will then be available for matching in rules processing.
+@enduml
 
-### Default Event Identifier
+# Agent Rules
+
+These are common to all agents
+
+## Default Event Identifier
+
+  ![Default identifier](./media/AgentIdentifier.png)
 
 The event's `identifier` field uniquely identifies an event in the console.
 
@@ -38,14 +48,39 @@ Timestamps are also stored for each event.
 **Please note** that when events are deduplicated via the `identifier` field, some information may be lost. 
 For example, the PID of a process can change regularly, but is not included in the identifier by default, so multiple PIDs may aggregate into a single event.
 
-### Severity Mapping
+## Field Mapping
+
+![Field Mapping](./media/AgentMapping.png)
+
+## Field Transformers
+
+![Field transforming](./media/AgentTransform.png)
+
+The transforms allow pre-defined functions to be applied to event
+console fields before rules processing takes place.
+
+Currently supported transformations are
+
+|Lower Case| lowercases a field value|
+|Upper Case| uppercases a field value|
+|Left Trim| Trims whitespace on the left|
+|Right Trim| Trims whitespace on the right|
+
+# Agent Specific - Syslog
+
+Syslog message fields need to be mapped to event console fields. These fields
+will then be available for matching in rules processing.
+
+
+## Severity Mapping
+
+![Severity Mappings](./media/SyslogSeverity.png)
 
 Syslog logging levels need to be mapped to event console severities as
 there is not a one to one relationship between them, and the scale is
 also inverted.
 
 Syslog levels are defined from 7 (debug) to 0 (emergency).
-
 
 Panther severities are from 5 (critical) to 0 (clear).
 
@@ -54,15 +89,5 @@ Panther severities are from 5 (critical) to 0 (clear).
 By default, events with severity 0 will be periodically removed from the list of
 event logs in the console.
 
-### Field Transform
-
-The transforms allow pre-defined functions to be applied to event
-console fields before rules processing takes place.
-
-Currently, `#[code lower_case]` is the only transform supported and by
-default it is applied to the `node` field, so that case checking is not
-necessary.
-
-
-## HTTP
+# Agent Specific - HTTP
 TODO
