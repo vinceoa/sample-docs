@@ -9,12 +9,52 @@
   margin-bottom: 10px;
 }
 
+.side-bar {
+  z-index: 0;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: $sidebar-color;
+
+  @include mq(md) {
+    flex-wrap: nowrap;
+    position: fixed;
+    width: $nav-width-md;
+    height: 100%;
+    flex-direction: column;
+    border-right: $border $border-color;
+    align-items: flex-end;
+  }
+
+  @include mq(lg) {
+    width: calc((100% - #{$nav-width + $content-width}) / 2.3 + #{$nav-width});
+    min-width: $nav-width;
+  }
+}
+
 .main {
   footer {
     background-color: $body-background-color;
     color: white a {
       color: whitesmoke;
     }
+  }
+
+  @include mq(md) {
+    position: relative;
+    max-width: $content-width;
+    margin-left: $nav-width-md;
+  }
+
+  @include mq(lg) {
+    margin-left: calc(
+      (100% - #{$nav-width + $content-width}) / 2 + #{$nav-width}
+    );
+  }
+
+  #main-header {
+    position: sticky;
+    top: 0px;
+    z-index: 3;
   }
 }
 
