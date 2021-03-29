@@ -17,11 +17,11 @@ The (beta) cloud-based version of Panther is accessible at [app.panther.support]
 
 Login for the first time as the user `admin` using the password that was used during Sign-up - this is the default user account that will be used to [administer](../admin/) Panther for the first time.
 
-The first screen that you will see is the [Dashboard](../dashboard/#overview), which will look like this:
+The first screen that you will see is the [Dashboard](../dashboard/index.md#overview), which will look like this:
 
 ![](./media/DashboardFirstTime.png)
 
-Clicking on `Open Console` will take you to the [Console](../console/#overview), which will look like this:
+Clicking on `Open Console` will take you to the [Console](../console/index.md#overview), which will look like this:
 
 ![](./media/ConsoleFirstTime.png)
 
