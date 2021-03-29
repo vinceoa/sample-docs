@@ -7,14 +7,37 @@ layout: template
 ---
 
 
-## Introduction
+# Introduction
 The (beta) cloud-based version of Panther is accessible at [app.panther.support](//app.panther.support). After a simple Sign-up process your dedicated secure Panther instance will be automatically provisioned within the Panther Cloud. When signing-up you will be asked to choose a unique name for your Console which will then be accessible at https://{**your-console-name**}.[app.panther.support](//app.panther.support).
 
 ![Panther Architecture diagram](../../img/PantherArchitecture.png)
 
-### Using Panther for the First Time
+## Using Panther for the First Time
 
+### Logging in (SaaS)
 Login for the first time as the user `admin` using the password that was used during Sign-up - this is the default user account that will be used to [administer](../admin/index.md) Panther for the first time.
+
+### Logging in (`docker-compose.yml`)
+
+**Note** Instructions for launching the Docker images are on [github.com/openanswers/panther-core](https://github.com/OpenAnswers/panther-core)
+
+After starting the Panther containers for the first time an initial password will have been set. Unless configured that defaults will be:
+
+| Username | `admin` |
+| Password | `admin`|
+
+This can be changed through the `environment` settings in [`docker-compose.yml`](https://github.com/OpenAnswers/panther-core/blob/master/docker-compose.yml) e.g.
+
+```yaml
+  event-console:
+    ...
+    environment:
+      - ADMIN_USERNAME=admin
+      - ADMIN_PASSWORD=admin
+      - ADMIN_EMAIL=you@example.com
+```
+
+### Welcome to the dashboard
 
 The first screen that you will see is the [Dashboard](../dashboard/index.md#overview), which will look like this:
 
@@ -26,7 +49,7 @@ Clicking on `Open Console` will take you to the [Console](../console/index.md#ov
 
 ... this example shows that the Panther instance currently has two events in it. These particular messages are coming from the instance's _internal_ `syslogd` and `http` agents which will send periodic "keep-alive" events to indicate that they are healthy. Here, `Agent http is alive` and `Agent syslogd` are the details of the event, contained within the `summary` field (see next section). Double-click on an event to explore it a bit more.
 
-### Anatomy of an Event
+## Anatomy of an Event
 A Panther Event is comprised of a number of data fields that are analagous to [The Syslog Protocol](https://tools.ietf.org/html/rfc5424).
 
 | Field            | Meaning                                                         | Example value                                                                     |
@@ -59,14 +82,14 @@ Double-click on an event and select `Fields` to see its full contents:
 See also:
  * [Syslog Mappings](../rules/#syslog-mappings)
 
-## Set Up Event Sources
+# Set Up Event Sources
 
 There are currently two main methods to import event logs into Panther
 from client event sources. The most straightforward of these is by
 means of compatible logging software, while an HTTP based API is also
 available for integration with bespoke client applications.
 
-### Logging Software
+## Logging Software
 
 Panther offers the capability to receive event logs directly from
 supported third-party logging software.  In order to facilitate this,
@@ -77,7 +100,7 @@ More detailed information on the download procedure is available,
 along with configuration guides for each supported system, in the
 [client configuration section](../config/index.md).
 
-### REST API
+## REST API
 
 For use cases where programmatic control is needed over the submission
 of event log entries, Panther provides an HTTP based REST API,
@@ -85,11 +108,11 @@ incorporating a key for security.
 
 More details on this are available in [the API section](../api/index.md).
 
-### Graylog (future)
+## Graylog (future)
 
-### SNMP Trap (future)
+## SNMP Trap (future)
 
-## Event Source Examples
+# Event Source Examples
 
 The freely available software packages listed below can act as event
 sources for Panther.
@@ -112,10 +135,10 @@ Examples of approaches that can be used to monitor infrastructure and applicatio
 | MuleSoft Anypoint Platform | TODO |
 | Dell Boomi                 | TODO |
 
-## Configure a Global Rule
+# Configure a Global Rule
 
 Global rules are rules that will be applied to every event log that is received by Panther. By default, you will have some syslog rules and a simple example. There is a tutorial for adding further global rules in the [Rules](../rules/global.md) section.
 
-## Configure a Group rule
+# Configure a Group rule
 
 There is a tutorial on setting up group rules in the [Rules](../rules/group.md) section, along with a working example in the [API](../api/index.md#example) section.
