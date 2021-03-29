@@ -4,10 +4,8 @@ title: Api
 nav_order: 5
 permalink: /panther/api
 parent: Panther
+layout: template
 ---
-
-* TOC
-{:toc}
 
 ## Introduction
 

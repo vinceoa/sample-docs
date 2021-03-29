@@ -31,6 +31,7 @@ plugins:
   - jekyll-feed
   - jekyll-spaceship
   - jekyll-sitemap
+  - jekyll-toc
 
 jekyll-spaceship:
   processors:
@@ -69,3 +70,9 @@ aux_links:
 
 panther:
   baseurl: app.panther.support
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      toc: true

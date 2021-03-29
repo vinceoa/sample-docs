@@ -4,10 +4,8 @@ title: Admin
 nav_order: 6
 permalink: /panther/admin
 parent: Panther
+layout: template
 ---
-
-* TOC
-{:toc}
 
 ## Introduction
 

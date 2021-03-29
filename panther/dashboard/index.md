@@ -4,10 +4,8 @@ title: Dashboard
 nav_order: 1
 permalink: /panther/dashboard
 parent: Panther
+layout: template
 ---
-
-* TOC
-{:toc}
 
 ## Overview
 

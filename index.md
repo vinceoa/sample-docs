@@ -6,9 +6,11 @@ layout: home
 title: Home
 nav_order: 0
 permalink: /
+layout: template
 ---
 
 ![](img/PANTHER-LOGO_TRANSPARENT_BG.png)
+
 **Panther** is an event consolidation and management application that centralizes and manages events from IT systems, networks and applications in a single console. Support and Operations teams benefit from increased efficiency and speed to problem resolution by being able to quickly and easily identify the monitoring events that are most important.
 
 Use the Panther [Console](./panther/console/index.md#overview) and [Rules](./panther/rules/index.md#overview) to filter, acknowledge, group, enrich, de-duplicate, aggregate, categorize, assign ownership and manage events through an (ITSM) Event Management lifecycle. Events can be securely sourced and processed from any Syslog source and/or via the Panther [API](./panther/api/index.md#introduction).

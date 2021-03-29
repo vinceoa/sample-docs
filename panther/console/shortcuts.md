@@ -5,6 +5,7 @@ nav_order: 5
 permalink: /panther/console/shortcuts
 parent: Console
 grand_parent: Panther
+layout: template
 ---
 
 ## Keyboard Shortcuts

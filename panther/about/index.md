@@ -3,10 +3,9 @@ layout: home
 title: About
 nav_order: 1
 permalink: /panther/about
+layout: template
 ---
 
-* TOC
-{:toc}
 
 ## Background
 Panther has been designed and developed by [Open Answers](https://www.openanswers.co.uk/) to meet our operational needs and those of our customers, having provided support and system monitoring services over three decades.

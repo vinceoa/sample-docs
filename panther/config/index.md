@@ -4,6 +4,7 @@ title: config
 nav_order: 6
 permalink: /panther/config
 parent: Panther
+layout: template
 ---
 
 

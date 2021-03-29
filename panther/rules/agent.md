@@ -5,10 +5,8 @@ nav_order: 3
 permalink: /panther/rules/agent
 parent: Rules
 grand_parent: Panther
+layout: template
 ---
-
-* TOC
-{:toc}
 
 # Agents
 There are two Panther event receivers:

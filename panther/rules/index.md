@@ -5,10 +5,9 @@ nav_order: 3
 permalink: /panther/rules
 parent: Panther
 has_children: true
+layout: template
 ---
 
-* TOC
-{:toc}
 
 ## Overview
 

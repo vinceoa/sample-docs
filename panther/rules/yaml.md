@@ -5,6 +5,7 @@ nav_order: 7
 permalink: /panther/rules/schedules
 parent: Rules
 grand_parent: Panther
+layout: template
 ---
 
 # Rules location

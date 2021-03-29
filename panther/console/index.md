@@ -5,12 +5,10 @@ nav_order: 2
 permalink: /panther/console
 parent: Panther
 has_children: true
+layout: template
 ---
 
 ![](media/panther-console.png)
-
-* TOC
-{:toc}
 
 # Overview
 

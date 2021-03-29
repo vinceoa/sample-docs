@@ -5,6 +5,7 @@ nav_order: 3
 permalink: /panther/rules/global
 parent: Rules
 grand_parent: Panther
+layout: template
 ---
 
 

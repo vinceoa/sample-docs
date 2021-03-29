@@ -4,10 +4,8 @@ title: Views
 nav_order: 4
 permalink: /panther/views
 parent: Panther
+layout: template
 ---
-
-* TOC
-{:toc}
 
 # Overview
 
