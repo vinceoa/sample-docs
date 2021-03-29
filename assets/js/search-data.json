@@ -397,148 +397,184 @@
   },"66": {
     "doc": "Home",
     "title": "Panther Key Features",
-    "content": "Dashboard . | Summary | Inventory | Activity Stream | . | Dashboard Documentation | . Console . | Event Management | Assign | Add Notes | Modify/Clear | Create rule from event | . | Console Documentation | . Rules . | Global/Group | Enrich | De-Duplicate | Filter/Categorize | Prioritize | GUI Rule builder | . | Rules Documentation | . Views . | Simple, configurable filters via field/value pairs | . | Views Documentation | . API Console . | Create first events using API | . | API Documentation | . Admin . | Users | Syslog config | Certs and Keys | API Keys | . | Admin Documentation | . ",
+    "content": " ",
     "url": "https://vinceoa.github.io/sample-docs/#panther-key-features",
     "relUrl": "/#panther-key-features"
   },"67": {
+    "doc": "Home",
+    "title": "Dashboard",
+    "content": ". | Summary | Inventory | Activity Stream | . | Dashboard Documentation | . ",
+    "url": "https://vinceoa.github.io/sample-docs/#dashboard",
+    "relUrl": "/#dashboard"
+  },"68": {
+    "doc": "Home",
+    "title": "Console",
+    "content": ". | Event Management | Assign | Add Notes | Modify/Clear | Create rule from event | . | Console Documentation | . ",
+    "url": "https://vinceoa.github.io/sample-docs/#console",
+    "relUrl": "/#console"
+  },"69": {
+    "doc": "Home",
+    "title": "Rules",
+    "content": ". | Global/Group | Enrich | De-Duplicate | Filter/Categorize | Prioritize | GUI Rule builder | . | Rules Documentation | . ",
+    "url": "https://vinceoa.github.io/sample-docs/#rules",
+    "relUrl": "/#rules"
+  },"70": {
+    "doc": "Home",
+    "title": "Views",
+    "content": ". | Simple, configurable filters via field/value pairs | . | Views Documentation | . ",
+    "url": "https://vinceoa.github.io/sample-docs/#views",
+    "relUrl": "/#views"
+  },"71": {
+    "doc": "Home",
+    "title": "API Console",
+    "content": ". | Create first events using API | . | API Documentation | . ",
+    "url": "https://vinceoa.github.io/sample-docs/#api-console",
+    "relUrl": "/#api-console"
+  },"72": {
+    "doc": "Home",
+    "title": "Admin",
+    "content": ". | Users | Syslog config | Certs and Keys | API Keys | . | Admin Documentation | . ",
+    "url": "https://vinceoa.github.io/sample-docs/#admin",
+    "relUrl": "/#admin"
+  },"73": {
     "doc": "Home",
     "title": "Home",
     "content": "Panther is an event consolidation and management application that centralizes and manages events from IT systems, networks and applications in a single console. Support and Operations teams benefit from increased efficiency and speed to problem resolution by being able to quickly and easily identify the monitoring events that are most important. Use the Panther Console and Rules to filter, acknowledge, group, enrich, de-duplicate, aggregate, categorize, assign ownership and manage events through an (ITSM) Event Management lifecycle. Events can be securely sourced and processed from any Syslog source and/or via the Panther API. Watch your Events like a Panther! . ",
     "url": "https://vinceoa.github.io/sample-docs/",
     "relUrl": "/"
-  },"68": {
+  },"74": {
     "doc": "Event schedule selection",
     "title": "Schedules",
     "content": "Schedules can be used to specify specific times of the week, enabling Rules to only match under those conditions. The Name is used to identify the schedule when editing Rules or Groups. It must be unique. Start and End specify a time range in the format of HH:MM. If the Start time is after the End time then the following conditions shall match: . | From midnight to the End time | From the Start time till midnight | . Days of the week can be chosen with the checkboxes . | Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | . ",
     "url": "https://vinceoa.github.io/sample-docs/panther/rules/schedules#schedules",
     "relUrl": "/panther/rules/schedules#schedules"
-  },"69": {
+  },"75": {
     "doc": "Event schedule selection",
     "title": "Event schedule selection",
     "content": " ",
     "url": "https://vinceoa.github.io/sample-docs/panther/rules/schedules",
     "relUrl": "/panther/rules/schedules"
-  },"70": {
+  },"76": {
     "doc": "Event selection",
     "title": "Selecting Events",
     "content": "Rules need to be able to select an event to apply an action to. Multiple “select” options will combined into a logical “and” operation. Logical “or” operations can be achieved by: . | specifying an array of values for a “select” field | using a regular expression | operator | specifying an additional rule in the ruleset | . ",
     "url": "https://vinceoa.github.io/sample-docs/panther/rules/selection#selecting-events",
     "relUrl": "/panther/rules/selection#selecting-events"
-  },"71": {
+  },"77": {
     "doc": "Event selection",
     "title": "match",
     "content": "Search a field for a match. When you supply some string the match becomes /some string/ with any regex literals escaped: . match: this_field: \"some string\" . You can also speciy a regex directly with js-yaml type syntax . match: that_field: !!js/regexp /some \\d+ digit/ . You can achieve a logical “or” by specifying an array of objects . match: other_field: - string search - !!js/regexp /regex search/ - more . ",
     "url": "https://vinceoa.github.io/sample-docs/panther/rules/selection#match",
     "relUrl": "/panther/rules/selection#match"
-  },"72": {
+  },"78": {
     "doc": "Event selection",
     "title": "equals",
     "content": "Exact match of the field some_field against the value 7: . equals: some_field: 7 . You can achieve a logical “or” by specifying an array of values: . match: other_field: - value - temp - over . ",
     "url": "https://vinceoa.github.io/sample-docs/panther/rules/selection#equals",
     "relUrl": "/panther/rules/selection#equals"
-  },"73": {
+  },"79": {
     "doc": "Event selection",
     "title": "field_exists",
     "content": "Test for the existence of a field: . field_exists: some_name_of_existing_field . ",
     "url": "https://vinceoa.github.io/sample-docs/panther/rules/selection#field_exists",
     "relUrl": "/panther/rules/selection#field_exists"
-  },"74": {
+  },"80": {
     "doc": "Event selection",
     "title": "field_missing",
     "content": "Test whether a field is missing: . field_missing: some_name_of_missing_field . ",
     "url": "https://vinceoa.github.io/sample-docs/panther/rules/selection#field_missing",
     "relUrl": "/panther/rules/selection#field_missing"
-  },"75": {
+  },"81": {
     "doc": "Event selection",
     "title": "starts_with",
     "content": "Field starts with the string Starting Text. Like a regular expression /^Starting Text/ . starts_with a_field_name: 'Starting Text' . ",
     "url": "https://vinceoa.github.io/sample-docs/panther/rules/selection#starts_with",
     "relUrl": "/panther/rules/selection#starts_with"
-  },"76": {
+  },"82": {
     "doc": "Event selection",
     "title": "ends_with",
     "content": "Field ends with the string Ending Text. Like a regular expression /Ending Text$/ . ends_with a_field_name: 'Ending Text' . ",
     "url": "https://vinceoa.github.io/sample-docs/panther/rules/selection#ends_with",
     "relUrl": "/panther/rules/selection#ends_with"
-  },"77": {
+  },"83": {
     "doc": "Event selection",
     "title": "Actions",
     "content": " ",
     "url": "https://vinceoa.github.io/sample-docs/panther/rules/selection#actions",
     "relUrl": "/panther/rules/selection#actions"
-  },"78": {
+  },"84": {
     "doc": "Event selection",
     "title": "set",
     "content": ". | Set a field to a value: | . - name: super_set equals: node: 'super.man.com' set: group: 'Krypton' . | Set a field by using the value from another field: | . - name: prefix summary with node name set: summary: '{node} - {summary}' match: summary: /hello world/ . | Set a field using a paramaterized pattern match: | . - name: change the words around set: summary: '{match.2} {match.1} number: {match.2}' match: summary: /^(\\w+) (\\d+) (\\w+).*/ . ",
     "url": "https://vinceoa.github.io/sample-docs/panther/rules/selection#set",
     "relUrl": "/panther/rules/selection#set"
-  },"79": {
+  },"85": {
     "doc": "Event selection",
     "title": "replace",
     "content": "A field holding the value to be replaced must be specified using field and the value to be replaced using this. The new value must be specified using with: . - name: other_replace match: summary: 'repeating repeating repeating' replace: field: message this: 'repeating' with: 'newrepeat' . A warning will be logged if the replacement doesn’t find a match. ",
     "url": "https://vinceoa.github.io/sample-docs/panther/rules/selection#replace",
     "relUrl": "/panther/rules/selection#replace"
-  },"80": {
+  },"86": {
     "doc": "Event selection",
     "title": "discard",
     "content": "Sets the severity of the alert to -1, so that it will be discarded: . - name: other_replace match:: node: 'spurious.alerts' discard: true . TODO: is this incomplete? regex replace a value . ",
     "url": "https://vinceoa.github.io/sample-docs/panther/rules/selection#discard",
     "relUrl": "/panther/rules/selection#discard"
-  },"81": {
+  },"87": {
     "doc": "Event selection",
     "title": "Event selection",
     "content": " ",
     "url": "https://vinceoa.github.io/sample-docs/panther/rules/selection",
     "relUrl": "/panther/rules/selection"
-  },"82": {
+  },"88": {
     "doc": "Settings",
     "title": "Introduction",
     "content": "TODO. ",
     "url": "https://vinceoa.github.io/sample-docs/panther/settings#introduction",
     "relUrl": "/panther/settings#introduction"
-  },"83": {
+  },"89": {
     "doc": "Settings",
     "title": "Settings",
     "content": " ",
     "url": "https://vinceoa.github.io/sample-docs/panther/settings",
     "relUrl": "/panther/settings"
-  },"84": {
+  },"90": {
     "doc": "Keyboard Shortcuts",
     "title": "Keyboard Shortcuts",
     "content": "Select next event . up/down . Add event to selection . shift + up / shift + down . Delete the selected events . backspace / delete . Open the events detailed information . enter / return . Select all events in your view . ctrl + a . Clear selection . escape . Copy selected rows to clipboard . ctrl + c . Assign the selected events to a user . a . Clear selected events . c . Toggle the Acknowledged flag of the event . k . Set the severity for selected events . s . Show the help dialogue . ? / h . ",
     "url": "https://vinceoa.github.io/sample-docs/panther/console/shortcuts",
     "relUrl": "/panther/console/shortcuts"
-  },"85": {
+  },"91": {
     "doc": "Rules file (yaml)",
     "title": "Rules location",
     "content": "Depending on which way you installed Panther there are differing locations of the rule files. ",
     "url": "https://vinceoa.github.io/sample-docs/panther/rules/schedules#rules-location",
     "relUrl": "/panther/rules/schedules#rules-location"
-  },"86": {
+  },"92": {
     "doc": "Rules file (yaml)",
     "title": "When using docker-compose.yml",
     "content": "A docker volume will have been created, the name is comprised of two parts. &lt;directory-name&gt;_rules_vol . For example if your docker-compose.yml is in a directory called panther then the docker volume will be called panther_rules-vol . e.g. [root@localhost ~]# ls -l /var/lib/docker/volumes/panther-core_rules-vol/_data/ total 14 -rw-r--r-- 1 ansible ansible 588 Jul 7 2020 http.rules.yml -rw-r--r-- 1 ansible ansible 860 Jul 7 2020 server.rules.yml -rw-r--r-- 1 ansible ansible 2256 Jul 7 2020 syslogd.rules.yml . ",
     "url": "https://vinceoa.github.io/sample-docs/panther/rules/schedules#when-using-docker-composeyml",
     "relUrl": "/panther/rules/schedules#when-using-docker-composeyml"
-  },"87": {
+  },"93": {
     "doc": "Rules file (yaml)",
     "title": "When using app.panther.support",
     "content": "The rules are not directly accessible to the end user. ",
     "url": "https://vinceoa.github.io/sample-docs/panther/rules/schedules#when-using-apppanthersupport",
     "relUrl": "/panther/rules/schedules#when-using-apppanthersupport"
-  },"88": {
+  },"94": {
     "doc": "Rules file (yaml)",
     "title": "When running the source code",
     "content": "The rules are located under rules/ . e.g. [root@localhost panther-core]# ls -l rules/ total 23 -rw-r--r-- 1 vinceoa vinceoa 588 Feb 23 11:36 http.rules.yml -rw-r--r-- 1 vinceoa vinceoa 815 Mar 26 16:12 server.rules.yml -rw-r--r-- 1 vinceoa vinceoa 2256 Feb 23 11:36 syslogd.rules.yml . ",
     "url": "https://vinceoa.github.io/sample-docs/panther/rules/schedules#when-running-the-source-code",
     "relUrl": "/panther/rules/schedules#when-running-the-source-code"
-  },"89": {
+  },"95": {
     "doc": "Rules file (yaml)",
     "title": "Rules format",
     "content": "The server.rules.yml has three main sections . globals: groups: schedules: . ",
     "url": "https://vinceoa.github.io/sample-docs/panther/rules/schedules#rules-format",
     "relUrl": "/panther/rules/schedules#rules-format"
-  },"90": {
+  },"96": {
     "doc": "Rules file (yaml)",
     "title": "Rules file (yaml)",
     "content": " ",
