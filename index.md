@@ -15,7 +15,7 @@ Use the Panther [Console](./panther/console/index.md#overview) and [Rules](./pan
 
 _Watch your Events like a Panther!_
 
-## IT Support - First Line Operations
+# IT Support - First Line Operations
 defintion: **Event**
   /ɪˈvɛnt/
   _noun_
@@ -35,8 +35,8 @@ This is achieved by having clear **visibility** of what needs actioning and bein
 * [ITSM Incident Management](./panther/about/index.md#itsm-incident-management)
 
 
-## Panther Key Features
-### Dashboard
+# Panther Key Features
+## Dashboard
  * Summary
  * Inventory
  * Activity Stream
@@ -46,7 +46,7 @@ This is achieved by having clear **visibility** of what needs actioning and bein
  * [Dashboard Documentation](./panther/dashboard/index.md#overview)
 
 
-### Console
+## Console
  * Event Management
  * Assign
  * Add Notes
@@ -57,7 +57,7 @@ This is achieved by having clear **visibility** of what needs actioning and bein
 
  * [Console Documentation](./panther/console/index.md#overview)
 
-### Rules
+## Rules
  * Global/Group
  * Enrich
  * De-Duplicate
@@ -69,21 +69,21 @@ This is achieved by having clear **visibility** of what needs actioning and bein
 
  * [Rules Documentation](./img/rules/index.md#overview)
 
-### Views
+## Views
  * Simple, configurable filters via field/value pairs
 
 ![](./img/Views.png)
 
  * [Views Documentation](./panther/views/index.md#overview)
 
-### API Console
+## API Console
  * Create first events using API
 
 ![](./img/APIConsole.png)
 
  * [API Documentation](./panther/api/index.md#introduction)
 
-### Admin
+## Admin
  * Users
  * Syslog config
  * Certs and Keys
