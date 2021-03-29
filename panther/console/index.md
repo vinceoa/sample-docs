@@ -12,7 +12,7 @@ has_children: true
 * TOC
 {:toc}
 
-## Overview
+# Overview
 
 The console is the main feature of Panther. It contains the system
 event logs, which are filtered and categorized based on account
@@ -52,7 +52,7 @@ automatically be assigned to the user.
 ![](./media/event-right-click-ack-unack.mp4)
 
 Users can also acknowledge and unacknowledge events from the
-[event details](#event-details) dialogue box.
+[event details](./index.md#event-details) dialogue box.
 
 ### Add External ID
 
