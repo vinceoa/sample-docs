@@ -54,7 +54,7 @@ Panther is a monitoring tool that enables your IT service management Event Manag
 
 Open Answers Event Management Flow:
 
-![](./media/EventManagementFlow.jpg  ':size=400')
+![Event flow through Panther](./media/EventManagementFlow.jpg  ':size=400')
 
 ## ITSM Incident Management
 In IT service management (ITSM), an Incident management process ensures that normal service operation is restored as quickly as possible and the business impact is minimized after an unplanned interruption or reduction in quality to an IT service, or an event that could increase the risk of this happening. All incidents are events, but not all events are incidents.
@@ -65,7 +65,7 @@ Panther is a monitoring tool that enables your IT service management Incident Ma
 
 Open Answers Event Management Flow: 
 
-![](./media/IncidentManagementFlow.jpg ':size=400')
+![Incident flow](./media/IncidentManagementFlow.jpg ':size=400')
 
 ## Note
 ITIL® is an acronym that is often used in reference to describing IT service management practices. The term ITIL® should only be used to describe AXELOS' proprietary form of IT service management.

@@ -49,7 +49,7 @@ bold text, unless a [rule](#rules) has been set that says otherwise.
 When an event is acknowledged from the right click menu, it will
 automatically be assigned to the user.
 
-![](./media/event-right-click-ack-unack.mp4)
+![right click to unack](./media/event-right-click-ack-unack.mp4)
 
 Users can also acknowledge and unacknowledge events from the
 [event details](./index.md#event-details) dialogue box.

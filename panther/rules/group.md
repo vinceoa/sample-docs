@@ -23,13 +23,13 @@ To create a new group rule:
 
 1. Create a new group
 
-    ![](./media/CreateGroupRule1.png)
+    ![Create rule](./media/CreateGroupRule1.png)
 
 2. Enter the name of the group you want to make. In this case there
 are two groups -- one named Operating System and one named Apache Web
 Service.
 
-    ![](./media/CreateGroupRule2.png)
+    ![Create rule](./media/CreateGroupRule2.png)
 
 3. To match any event log with this group, set a rule in the group
 selector. In this case, the rule is going to check the tag of the
@@ -38,29 +38,29 @@ run through the rules in the group one by one against the event log
 entry, carrying out any processing required.
 To do this, click on the pencil to open up the group selector.
 
-    ![](./media/GroupSelector.png)
+    ![Create rule](./media/GroupSelector.png)
 
 4. Create a rule to match the tag field with the word `os`, and save it.
   
-    ![](./media/tagos.png)
+    ![Rule matching a tag](./media/tagos.png)
 
 5. The new group selector can now match event logs containing the
 `os` tag against any rules in the group.  To create a new rule for the
 group, click on the down arrow for it and select 'Create a rule
 for...'
 
-    ![](./media/CreateGroupRule33.png)
+    ![Create a rule for](./media/CreateGroupRule33.png)
 
 6. This section is very similar to the `Global Rule` section. In this
 example, create a rule to log and group any failed `su`
 authentication events.
 
-    ![](./media/CreateGroupRule444.png)
+    ![Create a rule](./media/CreateGroupRule444.png)
     This rule is sending any event log that contains the string `FAILED su for .*` to the Operating System group and setting the severity to 3.
 
 7. Click `Save` and enable the deployment to the server.
    
-    ![](./media/CreateGroupRule5.png)
+    ![Saving a rule](./media/CreateGroupRule5.png)
 
 An example of this group rule being used is shown in the
 [API](../api#example) section.
