@@ -67,7 +67,7 @@ This is achieved by having clear **visibility** of what needs actioning and bein
 
 ![](./img/Rules.png)
 
- * [Rules Documentation](./img/rules/index.md#overview)
+ * [Rules Documentation](./panther/rules/index.md#overview)
 
 ## Views
  * Simple, configurable filters via field/value pairs
