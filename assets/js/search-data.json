@@ -19,7 +19,7 @@
   },"3": {
     "doc": "Agent rules",
     "title": "Agent rules",
-    "content": ". | Agents . | Syslog . | Default Event Identifier | Severity Mapping | Field Transform | . | HTTP | . | . ",
+    "content": " ",
     "url": "https://vinceoa.github.io/sample-docs/panther/rules/agent",
     "relUrl": "/panther/rules/agent"
   },"4": {
@@ -91,7 +91,7 @@
   },"15": {
     "doc": "Api",
     "title": "Api",
-    "content": ". | Introduction | Creating an Event . | API Key | Node | Tag | Summary | Severity | . | Sending an Event | Example | . ",
+    "content": " ",
     "url": "https://vinceoa.github.io/sample-docs/panther/api",
     "relUrl": "/panther/api"
   },"16": {
@@ -133,7 +133,7 @@
   },"22": {
     "doc": "Admin",
     "title": "Admin",
-    "content": ". | Introduction | User Administration . | Creating User Accounts | Modifying User Accounts . | Deleting Users | Changing Email Addresses | Resetting Passwords | . | . | API Keys | Delete All Events | Integrations | Console Fields | . ",
+    "content": " ",
     "url": "https://vinceoa.github.io/sample-docs/panther/admin",
     "relUrl": "/panther/admin"
   },"23": {
@@ -181,7 +181,7 @@
   },"30": {
     "doc": "Views",
     "title": "Views",
-    "content": ". | Overview | Adding Views . | Name | Field | Value . | String | Regular Expression | Number | . | Deleting a View | The Default View | . | . ",
+    "content": " ",
     "url": "https://vinceoa.github.io/sample-docs/panther/views",
     "relUrl": "/panther/views"
   },"31": {
@@ -235,7 +235,7 @@
   },"39": {
     "doc": "Rules",
     "title": "Rules",
-    "content": ". | Overview . | Processing order | . | Details . | Rule Order | Shortcut helpers . | syslog_mapping | deduplicate | discard / discard_last | . | . | . ",
+    "content": " ",
     "url": "https://vinceoa.github.io/sample-docs/panther/rules",
     "relUrl": "/panther/rules"
   },"40": {
@@ -271,7 +271,7 @@
   },"45": {
     "doc": "Console",
     "title": "Console",
-    "content": ". | Overview . | Events . | Acknowledge and Unacknowledge | Add External ID | Add Note | Clear | Assign | Severity | Details | Copy Event | Tools | . | Event Details . | Details | Notes | History | Fields | Matches | . | Activity | Filters . | Group | View | Severity | Multiple Filters | . | . | . ",
+    "content": ". ",
     "url": "https://vinceoa.github.io/sample-docs/panther/console",
     "relUrl": "/panther/console"
   },"46": {
@@ -307,7 +307,7 @@
   },"51": {
     "doc": "About",
     "title": "About",
-    "content": ". | Background . | Example Events | . | Architecture | ITSM Event Management | ITSM Incident Management | Note | . ",
+    "content": " ",
     "url": "https://vinceoa.github.io/sample-docs/panther/about",
     "relUrl": "/panther/about"
   },"52": {
@@ -343,7 +343,7 @@
   },"57": {
     "doc": "Getting Started",
     "title": "Getting Started",
-    "content": ". | Introduction . | Using Panther for the First Time | Anatomy of an Event | . | Set Up Event Sources . | Logging Software | REST API | Graylog (future) | SNMP Trap (future) | . | Event Source Examples | Configure a Global Rule | Configure a Group rule | . ",
+    "content": " ",
     "url": "https://vinceoa.github.io/sample-docs/panther/getting-started",
     "relUrl": "/panther/getting-started"
   },"58": {
@@ -379,7 +379,7 @@
   },"63": {
     "doc": "Dashboard",
     "title": "Dashboard",
-    "content": ". | Overview | Severities | Event Groups | Activity Stream | Inventory | . ",
+    "content": " ",
     "url": "https://vinceoa.github.io/sample-docs/panther/dashboard",
     "relUrl": "/panther/dashboard"
   },"64": {
@@ -439,7 +439,7 @@
   },"73": {
     "doc": "Home",
     "title": "Home",
-    "content": "Panther is an event consolidation and management application that centralizes and manages events from IT systems, networks and applications in a single console. Support and Operations teams benefit from increased efficiency and speed to problem resolution by being able to quickly and easily identify the monitoring events that are most important. Use the Panther Console and Rules to filter, acknowledge, group, enrich, de-duplicate, aggregate, categorize, assign ownership and manage events through an (ITSM) Event Management lifecycle. Events can be securely sourced and processed from any Syslog source and/or via the Panther API. Watch your Events like a Panther! . ",
+    "content": ". Panther is an event consolidation and management application that centralizes and manages events from IT systems, networks and applications in a single console. Support and Operations teams benefit from increased efficiency and speed to problem resolution by being able to quickly and easily identify the monitoring events that are most important. Use the Panther Console and Rules to filter, acknowledge, group, enrich, de-duplicate, aggregate, categorize, assign ownership and manage events through an (ITSM) Event Management lifecycle. Events can be securely sourced and processed from any Syslog source and/or via the Panther API. Watch your Events like a Panther! . ",
     "url": "https://vinceoa.github.io/sample-docs/",
     "relUrl": "/"
   },"74": {
