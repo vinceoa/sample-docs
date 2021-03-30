@@ -7,7 +7,7 @@ parent: Panther
 layout: template
 ---
 
-## Overview
+# Overview
 
 The dashboard provides an overview of the current contents of your event console.
 
@@ -15,7 +15,7 @@ The dashboard provides an overview of the current contents of your event console
 
 
 
-## Severities
+# Severities
 
 At the top of the dashboard, there is a row of counters for events
 processed in the event logs associated with each severity.  These
@@ -23,7 +23,7 @@ counters reflect the number of unique events logged, and will not
 increase if the same event log is processed multiple times.
 
 
-## Event Groups
+# Event Groups
 
 Counters are displayed in this section for events matching any created
 event groups -- along with one special counter for events having no
@@ -35,7 +35,7 @@ relative proportions of events having each of the severity levels. The
 actual numerical breakdowns can be inspected by moving the mouse
 pointer over each row.
 
-## Activity Stream
+# Activity Stream
 
 The activity stream logs user interaction with Panther, including:
 
@@ -45,7 +45,7 @@ The activity stream logs user interaction with Panther, including:
 * Event clearances
 * Event deletions
 
-## Inventory
+# Inventory
 
 The inventory lists the names of hosts that have connected to Panther,
 and the last times they were seen.

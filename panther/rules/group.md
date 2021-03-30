@@ -7,7 +7,7 @@ parent: Rules
 grand_parent: Panther
 ---
 
-## Group Rules
+# Group Rules
 
 Group rules are used to sort the event logs into different groups,
 based on user discretion.

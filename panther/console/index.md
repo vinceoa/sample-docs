@@ -8,9 +8,10 @@ has_children: true
 layout: template
 ---
 
-![](media/panther-console.png)
 
 # Overview
+
+![Panther console view](media/panther-console.png)
 
 The console is the main feature of Panther. It contains the system
 event logs, which are filtered and categorized based on account

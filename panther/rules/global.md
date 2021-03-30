@@ -8,7 +8,7 @@ grand_parent: Panther
 ---
 
 
-## Global Rules
+# Global Rules
 
 Global rules are applied to every event that is parsed into
 Panther. These would be common rules intended to apply to most if not
@@ -22,13 +22,13 @@ To implement this example:
 
 1. Create a new rule
    
-    ![](./media/CreateGlobalRule7.png)
+    ![Creating a new Global rule](./media/CreateGlobalRule7.png)
 
 2. Enter a name for the rule and choose a selector from the drop down
 menu. In this case, use `match` to check for a string in the summary
 of the event.
 
-    ![](./media/CreateGlobalRule4.png)
+    ![Choosing a selector](./media/CreateGlobalRule4.png)
 
 3. Select a field, in this case the summary field of the log event.
 
@@ -37,9 +37,9 @@ case, the message is `/detected your registry/`.
 
 5. The action to select is to delete the event log from the console.
 
-    ![](./media/CreateGlobalRule6.png)
+    ![Action choices](./media/CreateGlobalRule6.png)
 
 6. Save the new rule and click deploy to forward the changes to the server.
 
-    ![](./media/CreateGlobalRule9.png)
+    ![Saving...](./media/CreateGlobalRule9.png)
 

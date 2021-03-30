@@ -9,7 +9,7 @@ layout: template
 ---
 
 
-## Overview
+# Overview
 
 Rules control how log messages are turned into events. They can be
 used to discard, de-duplicate or modify the events that appear in the
@@ -33,7 +33,7 @@ rules -right-> storage
 @enduml
 
 
-### Processing order
+## Processing order
 
 @startuml
 agent "Agent Rules" as a1
@@ -51,7 +51,7 @@ followed by the [Global Rules](./global.md#global-rules) and, finally, any optio
 
 
 
-## Details
+# Details
 
   Each rule definition is stored in yaml file.
 
@@ -97,7 +97,7 @@ followed by the [Global Rules](./global.md#global-rules) and, finally, any optio
 
 
 
-### Rule Order
+## Rule Order
 
 Rules are applied in the following order:
 
@@ -113,21 +113,21 @@ Rules are applied in the following order:
   6. Discards that rely on other mappings
 
 
-### Shortcut helpers
+## Shortcut helpers
 
   There are some tasks that are repeated frequently, so the most
   reqular have shortcuts set up to make the rules more succinct.
 
   TODO - not clear how or where to use these!
 
-#### `syslog_mapping`
+### `syslog_mapping`
 
   Takes the syslog levels and maps them
   to console severities.
 
   * This is a required field (TODO - what is?)
 
-#### `deduplicate`
+### `deduplicate`
 
   Shortcut for matching on `summary` with a regex and replacing it.
 
@@ -140,7 +140,7 @@ Rules are applied in the following order:
   * A match will short-circuit dedupe execution, but continue on to
   any following rules.
 
-#### `discard` / `discard_last`
+### `discard` / `discard_last`
 
   Shortcuts for dumping messages, either before or after normal
   processing.

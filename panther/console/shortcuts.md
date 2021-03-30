@@ -8,63 +8,63 @@ grand_parent: Panther
 layout: template
 ---
 
-## Keyboard Shortcuts
+# Keyboard Shortcuts
 
-### Select next event
+## Select next event
 
 <kbd>up</kbd>/<kbd>down</kbd>
 
 
-### Add event to selection
+## Add event to selection
 
 <kbd>shift</kbd> + <kbd>up</kbd> / <kbd>shift</kbd> + <kbd>down</kbd>
 
 
-### Delete the selected events
+## Delete the selected events
 
 <kbd>backspace</kbd> / <kbd>delete</kbd>
 
 
-### Open the events detailed information
+## Open the events detailed information
 
 <kbd>enter</kbd> / <kbd>return</kbd> 
 
 
-### Select all events in your view
+## Select all events in your view
 
 <kbd>ctrl</kbd> + <kbd>a</kbd> 
 
 
-### Clear selection
+## Clear selection
 
 <kbd>escape</kbd>
 
 
-### Copy selected rows to clipboard
+## Copy selected rows to clipboard
 
 <kbd>ctrl</kbd> + <kbd>c</kbd>
 
 
-### Assign the selected events to a user
+## Assign the selected events to a user
 
 <kbd>a</kbd> 
 
 
-### Clear selected events
+## Clear selected events
 
 <kbd>c</kbd>
 
 
-### Toggle the Acknowledged flag of the event
+## Toggle the Acknowledged flag of the event
 
 <kbd>k</kbd>
 
 
-### Set the severity for selected events
+## Set the severity for selected events
 
 <kbd>s</kbd>
 
 
-### Show the help dialogue
+## Show the help dialogue
 
 <kbd>?</kbd> / <kbd>h</kbd>

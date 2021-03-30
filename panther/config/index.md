@@ -7,7 +7,7 @@ parent: Panther
 layout: template
 ---
 
-
+# Overview
 
 The most straightforward way to send events to Panther is to install
 and configure compatible logging software on the client system.
@@ -32,7 +32,7 @@ refer to the relevant sections for their own specific software.
  * [NXLog (linux)](#nxlog-linux)
  * [NXLog (windows)](#nxlog-windows)
 
-## Introduction
+# Introduction
 
 Event data is sent securely to the Panther server from local clients
 via an encrypted connection using Transport Layer Security (TLS). This
@@ -78,7 +78,7 @@ unimportant.)
 
 <a name="rsyslog-linux" id="rsyslog-linux"></a>
 
-## Rsyslog Configuration
+# Rsyslog Configuration
 
 For complete information on configuring [rsyslog](https://www.rsyslog.com/),
 please consult the official [guides for rsyslog.](https://www.rsyslog.com/category/guides-for-rsyslog/)
@@ -96,7 +96,7 @@ Panther are:
 
 <a name="gnutls" id="rl-gnutls"></a>
 
-### Install GNU-TLS support for rsyslog
+## Install GNU-TLS support for rsyslog
 
 On GNU/Linux systems, rsyslog uses [the GnuTLS](https://gnutls.org/)
 library to provide its TLS functionality. This is classed as an
@@ -105,20 +105,20 @@ installed automatically by the package manager. Where this is the
 case, the TLS package may have to be added explicitly along with the
 main rsyslog package.
 
-#### Debian / Ubuntu
+### Debian / Ubuntu
 
 ```console
 # apt-get install rsyslog-gnutls
 ```
 
-#### RedHat / CentOS
+### RedHat / CentOS
 
 ```console
 # yum install rsyslog-gnutls
 ```
 <a name="rl-install" id="rl-install"></a>
 
-### Install the configuration files
+## Install the configuration files
 
 The downloaded resources in `rsyslog-config-linux.tar` need to be
 installed into the system rsyslog configuration directory.
@@ -133,7 +133,7 @@ in case any previously configured files are overwritten.
 [root@localhost /etc]# tar -xvf /path/to/rsyslog-config-linux.tar
 ```
 
-### Edit the main rsyslog configuration
+## Edit the main rsyslog configuration
 
 Once the new configuration files have been installed, the main system
 rsyslog configuration file must be updated in order to reference them.
@@ -148,13 +148,13 @@ $IncludeConfig /etc/rsyslog-client.d/*.conf
 
 <a name="restart" id="rl-restart"></a>
 
-### Restart rsyslog
+## Restart rsyslog
 
 The new configuration should take effect automatically when the system
 is next rebooted, but it is also possible to restart rsyslog to
 have the changes take effect immediately.
 
-#### systemd based systems
+### systemd based systems
 
 Systems using the newer systemd service manager, such as Ubuntu 18 and
 CentOS 7, can restart the rsyslog service as follows:
@@ -163,7 +163,7 @@ CentOS 7, can restart the rsyslog service as follows:
 # systemctl restart rsyslog
 ```
 
-#### init.d based systems
+### init.d based systems
 
 Systems using the older System V init service management scripts can
 generally restart the rsyslog service as follows:
@@ -173,7 +173,7 @@ generally restart the rsyslog service as follows:
 ```
 <a name="nxlog-windows" id="nxlog-linux"></a>
 
-## NXLog Configuration (Linux)
+# NXLog Configuration (Linux)
 
 Install the NXLog Community Edition
 [from the official website](https://nxlog.co/products/nxlog-community-edition/download)
@@ -187,7 +187,7 @@ Once installed, the steps to integrate NXLog with Panther are:
 
 <a name="nl-install" id="nl-install"></a>
 
-### Install the configuration files
+## Install the configuration files
 
 To begin with, download the configuration archive
 [as described above.](#download-configuration-archive)
@@ -209,7 +209,7 @@ required certificates and key files into a new `panther` sub-directory.
 
 <a name="nl-restart" id="nl-restart"></a>
 
-### Restart NXLog
+## Restart NXLog
 
 If NXLog has been installed according to
 [the deployment guide,](https://nxlog.co/documentation/nxlog-user-guide/deployment.html)
@@ -230,7 +230,7 @@ possible to restart NXLog by calling the init script directly:
 ```
 <a name="nxlog-windows" id="nxlog-windows"></a>
 
-## NXLog Configuration (Windows)
+# NXLog Configuration (Windows)
 
 Download the Windows installer for the NXLog Community Edition
 [from the official website.](https://nxlog.co/products/nxlog-community-edition/download)
@@ -245,7 +245,7 @@ Once installed, the steps to integrate NXLog with Panther are:
 
 <a name="nw-install" id="nw-install"></a>
 
-### Install the configuration files
+## Install the configuration files
 
 Once the Windows configuration archive has been downloaded
 [as described above,](#download-configuration-archive) the contents of
@@ -272,7 +272,7 @@ to the `cert` directory, owing to its permissions.
 
 <a name="nw-restart" id="nw-restart"></a>
 
-### Restart NXLog
+## Restart NXLog
 
 The NXLog installer should have configured the service to be started
 automatically on the next system boot.
