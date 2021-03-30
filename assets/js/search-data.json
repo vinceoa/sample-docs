@@ -625,7 +625,7 @@
   },"104": {
     "doc": "Event selection",
     "title": "match",
-    "content": "Search a field for a match. When you supply some string the match becomes /some string/ with any regex literals escaped: . match: this_field: \"some string\" . You can also speciy a regex directly with js-yaml type syntax . match: that_field: !!js/regexp /some \\d+ digit/ . You can achieve a logical “or” by specifying an array of objects . match: other_field: - string search - !!js/regexp /regex search/ - more . ",
+    "content": "Search a field for a match. When you supply some string the match becomes /some string/ with any regex literals escaped: . match: this_field: \"some string\" . You can also specify a regex directly with js-yaml type syntax . match: that_field: !!js/regexp /some \\d+ digit/ . You can achieve a logical “or” by specifying an array of objects . match: other_field: - string search - !!js/regexp /regex search/ - more . ",
     "url": "https://vinceoa.github.io/sample-docs/panther/rules/selection#match",
     "relUrl": "/panther/rules/selection#match"
   },"105": {
