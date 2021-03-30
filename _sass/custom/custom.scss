@@ -67,6 +67,19 @@
   }
 }
 
+.search-input {
+  background: black;
+  color: #ddd;
+  font-size: $font-size-6;
+}
+
+.search-result-preview {
+  font-size: $font-size-3;
+}
+.search-result-doc-title {
+  font-size: $font-size-4;
+}
+
 .side-bar {
   nav {
     //color: #ccc;
