@@ -70,9 +70,8 @@
 }
 
 .search-input {
-  background: black;
-  color: #ddd;
   font-size: $font-size-6;
+  color: $search-result-preview-color;
 }
 
 .search-result-preview {
