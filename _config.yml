@@ -5,6 +5,9 @@ url: "https://vinceoa.github.io" # the base hostname & protocol for your site, e
 logo: "/img/panther_logo_thin.png"
 permalink: pretty
 
+image:
+  path: "img/panther_logo_thin.png"
+
 # Exclude from processing.
 exclude:
   - Dockerfile
@@ -32,6 +35,7 @@ plugins:
   - jekyll-spaceship
   - jekyll-sitemap
   - jekyll-toc
+#  - jekyll-seo-tag
 
 jekyll-spaceship:
   processors:
@@ -76,7 +80,7 @@ defaults:
       path: ""
     values:
       toc: true
-      image: "img/panther_logo_thin.png"
+      image: "img/panther_logo_border.png"
 
 search:
   rel_url: false
