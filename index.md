@@ -7,6 +7,7 @@ title: Home
 nav_order: 0
 permalink: /
 layout: template
+description: Welcome to Panther
 ---
 
 ![](img/PANTHER-LOGO_TRANSPARENT_BG.png)

@@ -4,6 +4,7 @@ title: Api
 nav_order: 8
 permalink: /panther/api
 layout: template
+description: Panther HTTP event API
 ---
 
 # Introduction

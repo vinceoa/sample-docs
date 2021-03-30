@@ -5,6 +5,7 @@ nav_order: 5
 permalink: /panther/rules/selection
 parent: Rules
 layout: template
+description: Panther Rules - selections
 ---
 
 

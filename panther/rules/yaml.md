@@ -5,6 +5,7 @@ nav_order: 6
 permalink: /panther/rules/yaml
 parent: Rules
 layout: template
+description: Panther Rules - yaml definitions
 ---
 
 # Rules location

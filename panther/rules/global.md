@@ -4,6 +4,7 @@ title: Server Global rules
 nav_order: 2
 permalink: /panther/rules/global
 parent: Rules
+description: Panther Rules - global
 ---
 
 

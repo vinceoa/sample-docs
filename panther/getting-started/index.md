@@ -4,6 +4,7 @@ title: Getting Started
 nav_order: 2
 permalink: /panther/getting-started
 layout: template
+description: Getting started with Panther
 ---
 
 

@@ -5,6 +5,7 @@ nav_order: 6
 permalink: /panther/rules
 has_children: true
 layout: template
+description: Panther Rules - processing
 ---
 
 

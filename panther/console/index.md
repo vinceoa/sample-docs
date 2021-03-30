@@ -5,6 +5,7 @@ nav_order: 5
 permalink: /panther/console
 has_children: true
 layout: template
+description: The Panther Console
 ---
 
 

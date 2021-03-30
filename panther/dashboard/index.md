@@ -4,6 +4,7 @@ title: Dashboard
 nav_order: 4
 permalink: /panther/dashboard
 layout: template
+description: Panther Dashboard
 ---
 
 # Overview

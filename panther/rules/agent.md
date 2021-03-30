@@ -5,6 +5,7 @@ nav_order: 1
 permalink: /panther/rules/agent
 parent: Rules
 layout: template
+description: Panther Rules - agents
 ---
 
 # Overview

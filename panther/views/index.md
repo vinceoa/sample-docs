@@ -4,6 +4,7 @@ title: Views
 nav_order: 7
 permalink: /panther/views
 layout: template
+description: Panther View configuration
 ---
 
 # Overview

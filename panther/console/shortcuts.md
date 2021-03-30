@@ -5,6 +5,7 @@ nav_order: 5
 permalink: /panther/console/shortcuts
 parent: Console
 layout: template
+description: Panther Console keyboard shortcuts
 ---
 
 # Keyboard Shortcuts

@@ -4,6 +4,7 @@ title: Admin
 nav_order: 9
 permalink: /panther/admin
 layout: template
+description: Panther user administration
 ---
 
 # Introduction
