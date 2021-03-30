@@ -2264,7 +2264,7 @@ figure.highlight pre, figure.highlight code { padding: 0; margin: 0; border: 0; 
 @media (min-width: 66.5rem) { .main { margin-left: calc( (100% - 1110px) / 4 + 260px ); } }
 .main #main-header { position: sticky; top: 0px; z-index: 3; }
 
-.search-input { font-size: 18px; color: #ddd; }
+.search-input { font-size: 18px; color: #ddd; background: linear-gradient(#ddd, #000) center bottom 5px/calc(100% - 50px) 2px no-repeat; }
 
 .search-result-preview { font-size: 14px; }
 
