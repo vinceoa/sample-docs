@@ -10,7 +10,7 @@ layout: template
 
 The dashboard provides an overview of the current contents of your event console.
 
-![](./dash-updating.mp4)
+![Sample Dashboard with animation](./dash-updating.mp4)
 
 
 
