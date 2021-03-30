@@ -1,9 +1,8 @@
 ---
 layout: home
 title: Console
-nav_order: 2
+nav_order: 5
 permalink: /panther/console
-parent: Panther
 has_children: true
 layout: template
 ---

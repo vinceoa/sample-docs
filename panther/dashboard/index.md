@@ -1,9 +1,8 @@
 ---
 layout: home
 title: Dashboard
-nav_order: 1
+nav_order: 4
 permalink: /panther/dashboard
-parent: Panther
 layout: template
 ---
 

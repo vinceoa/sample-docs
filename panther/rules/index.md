@@ -1,9 +1,8 @@
 ---
 layout: home
 title: Rules
-nav_order: 3
+nav_order: 5
 permalink: /panther/rules
-parent: Panther
 has_children: true
 layout: template
 ---

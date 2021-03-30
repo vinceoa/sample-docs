@@ -1,9 +1,8 @@
 ---
 layout: home
-title: config
-nav_order: 6
+title: Client Configuration
+nav_order: 3
 permalink: /panther/config
-parent: Panther
 layout: template
 ---
 

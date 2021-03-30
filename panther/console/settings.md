@@ -1,10 +1,8 @@
 ---
 layout: home
 title: Settings
-nav_order: 5
+nav_order: 9
 permalink: /panther/settings
-parent: Console
-grand_parent: Panther
 ---
 
 ## Introduction

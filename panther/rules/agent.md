@@ -1,10 +1,9 @@
 ---
 layout: home
 title: Agent rules
-nav_order: 3
+nav_order: 1
 permalink: /panther/rules/agent
 parent: Rules
-grand_parent: Panther
 layout: template
 ---
 

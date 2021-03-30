@@ -4,7 +4,6 @@ title: Server Group rules
 nav_order: 3
 permalink: /panther/rules/group
 parent: Rules
-grand_parent: Panther
 ---
 
 # Group Rules

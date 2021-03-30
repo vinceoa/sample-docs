@@ -1,10 +1,9 @@
 ---
 layout: home
 title: Event schedule selection 
-nav_order: 3
+nav_order: 4
 permalink: /panther/rules/schedules
 parent: Rules
-grand_parent: Panther
 ---
 
 

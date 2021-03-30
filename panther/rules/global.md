@@ -1,10 +1,9 @@
 ---
 layout: home
 title: Server Global rules
-nav_order: 3
+nav_order: 2
 permalink: /panther/rules/global
 parent: Rules
-grand_parent: Panther
 ---
 
 

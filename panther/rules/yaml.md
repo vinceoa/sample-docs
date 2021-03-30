@@ -1,10 +1,9 @@
 ---
 layout: home
 title: Rules file (yaml)
-nav_order: 7
+nav_order: 6
 permalink: /panther/rules/schedules
 parent: Rules
-grand_parent: Panther
 layout: template
 ---
 

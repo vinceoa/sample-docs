@@ -1,9 +1,8 @@
 ---
 layout: home
 title: Api
-nav_order: 5
+nav_order: 7
 permalink: /panther/api
-parent: Panther
 layout: template
 ---
 
