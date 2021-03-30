@@ -1,5 +1,5 @@
 #toc {
-  @include mq(lg) {
+  @include mq(xl) {
     position: fixed;
     top: 5rem;
     right: 30px;
@@ -32,7 +32,7 @@
   }
 
   @include mq(lg) {
-    width: calc((100% - #{$nav-width + $content-width}) / 2.3 + #{$nav-width});
+    width: calc((100% - #{$nav-width + $content-width}) / 4 + #{$nav-width});
     min-width: $nav-width;
   }
 
@@ -58,7 +58,7 @@
 
   @include mq(lg) {
     margin-left: calc(
-      (100% - #{$nav-width + $content-width}) / 2 + #{$nav-width}
+      (100% - #{$nav-width + $content-width}) / 4 + #{$nav-width}
     );
   }
 
