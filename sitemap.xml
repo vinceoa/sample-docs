@@ -48,6 +48,9 @@
 <loc>https://vinceoa.github.io/sample-docs/panther/dashboard</loc>
 </url>
 <url>
+<loc>https://vinceoa.github.io/sample-docs/panther/license</loc>
+</url>
+<url>
 <loc>https://vinceoa.github.io/sample-docs/</loc>
 </url>
 <url>
@@ -63,6 +66,6 @@
 <loc>https://vinceoa.github.io/sample-docs/panther/console/shortcuts</loc>
 </url>
 <url>
-<loc>https://vinceoa.github.io/sample-docs/panther/rules/schedules</loc>
+<loc>https://vinceoa.github.io/sample-docs/panther/rules/yaml</loc>
 </url>
 </urlset>
