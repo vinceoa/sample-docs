@@ -2,7 +2,7 @@
 layout: home
 title: Rules file (yaml)
 nav_order: 6
-permalink: /panther/rules/schedules
+permalink: /panther/rules/yaml
 parent: Rules
 layout: template
 ---

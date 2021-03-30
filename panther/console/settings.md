@@ -5,6 +5,6 @@ nav_order: 9
 permalink: /panther/settings
 ---
 
-## Introduction
+## Overview
 
 TODO.

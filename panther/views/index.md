@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Views
-nav_order: 6
+nav_order: 7
 permalink: /panther/views
 layout: template
 ---

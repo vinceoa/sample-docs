@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Admin
-nav_order: 8
+nav_order: 9
 permalink: /panther/admin
 layout: template
 ---
