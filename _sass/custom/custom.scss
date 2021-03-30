@@ -1,7 +1,9 @@
 #toc {
-  position: fixed;
-  top: 5rem;
-  right: 30px;
+  @include mq(lg) {
+    position: fixed;
+    top: 5rem;
+    right: 30px;
+  }
 
   .toc-entry {
     font-size: $font-size-4;
