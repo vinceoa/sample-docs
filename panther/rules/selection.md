@@ -33,7 +33,7 @@ description: Panther Rules - selections
       this_field: "some string"
   ```
 
-  You can also speciy a regex directly with `js-yaml` type syntax
+  You can also specify a regex directly with `js-yaml` type syntax
 
   ```yaml
     match:
