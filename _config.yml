@@ -76,6 +76,10 @@ defaults:
       path: ""
     values:
       toc: true
+      image: "img/panther_logo_thin.png"
 
 search:
   rel_url: false
+
+twitter:
+  card: summary
