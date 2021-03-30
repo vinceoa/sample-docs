@@ -72,6 +72,8 @@
 .search-input {
   font-size: $font-size-6;
   color: $search-result-preview-color;
+  background: linear-gradient(#ddd, #000) center bottom 5px / calc(100% - 50px)
+    2px no-repeat;
 }
 
 .search-result-preview {
@@ -98,7 +100,6 @@
   font-weight: bold;
   font-size: 1em * 1.125;
 }
-
 
 .breadcrumb-nav-list-item {
   display: table-cell;
