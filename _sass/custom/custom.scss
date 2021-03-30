@@ -79,3 +79,9 @@
   font-weight: bold;
   font-size: 1em * 1.125;
 }
+
+
+.breadcrumb-nav-list-item {
+  display: table-cell;
+  @include fs-3;
+}
