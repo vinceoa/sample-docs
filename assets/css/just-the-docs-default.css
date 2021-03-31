@@ -2249,8 +2249,8 @@ figure.highlight pre, figure.highlight code { padding: 0; margin: 0; border: 0; 
   .text-small { font-size: 8pt !important; }
   pre.highlight { border: 1px solid #44434d; }
   .main { max-width: none; margin-left: 0; } }
-@media (min-width: 87.5rem) { #toc { position: fixed; top: 5rem; right: 30px; } }
-#toc .toc-entry { font-size: 16px; }
+@media (min-width: 87.5rem) { #toc { position: fixed; top: 5rem; right: 10px; overflow-y: auto; } }
+#toc .toc-entry { font-size: 14px; }
 
 #toc::before { content: "On this page"; font-weight: bold; margin-bottom: 10px; }
 
@@ -2261,7 +2261,7 @@ figure.highlight pre, figure.highlight code { padding: 0; margin: 0; border: 0; 
 
 .main footer { background-color: #444; color: white a; color-color: whitesmoke; }
 @media (min-width: 50rem) { .main { position: relative; max-width: 850px; margin-left: 248px; } }
-@media (min-width: 66.5rem) { .main { margin-left: calc( (100% - 1110px) / 4 + 260px ); } }
+@media (min-width: 66.5rem) { .main { margin-left: calc( (100% - 1110px) / 4 + 260px ); margin-right: 300px; } }
 .main #main-header { position: sticky; top: 0px; z-index: 3; }
 
 .search-input { font-size: 18px; color: #ddd; background: linear-gradient(#ddd, #000) center bottom 5px/calc(100% - 50px) 2px no-repeat; }
