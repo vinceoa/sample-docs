@@ -5,12 +5,16 @@ gem "jekyll", ">= 3.9"
 
 gem "just-the-docs", "~> 0.3.3"
 gem "github-pages", group: :jekyll_plugins
+gem "html-proofer"
+gem "activesupport", "= 6.0.3.5"
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-paginate", "~> 1.1.0"
   gem "jekyll-sitemap"
   gem "jekyll-spaceship"
+  gem "jekyll-toc"
+  gem "jekyll-seo-tag"
 end
 
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]

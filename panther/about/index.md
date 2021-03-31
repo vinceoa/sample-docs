@@ -3,10 +3,10 @@ layout: home
 title: About
 nav_order: 1
 permalink: /panther/about
+layout: template
+description: About Panther Event monitoring
 ---
 
-* TOC
-{:toc}
 
 ## Background
 Panther has been designed and developed by [Open Answers](https://www.openanswers.co.uk/) to meet our operational needs and those of our customers, having provided support and system monitoring services over three decades.
@@ -36,7 +36,7 @@ By surfacing events of all types in one place, in a way that makes them easy to 
 | Network event          | Switch detected spanning-tree loop                         |
 
 ## Architecture
-The (beta) cloud-based version of Panther is a service that ingests events received from TLS-secured authenticated sources using the Syslog protocol or Panther [API](../api#introduction). The [Console](../console#overview) provides a rich set of features that allow you to manage events and configure the service using a web browser.
+The (beta) cloud-based version of Panther is a service that ingests events received from TLS-secured authenticated sources using the Syslog protocol or Panther [API](../api/index.md#introduction). The [Console](../console/index.md#overview) provides a rich set of features that allow you to manage events and configure the service using a web browser.
 
 ![](../../img/PantherArchitecture.png ':size=700')
 
@@ -54,7 +54,7 @@ Panther is a monitoring tool that enables your IT service management Event Manag
 
 Open Answers Event Management Flow:
 
-![](./media/EventManagementFlow.jpg  ':size=400')
+![Event flow through Panther](./media/EventManagementFlow.jpg)
 
 ## ITSM Incident Management
 In IT service management (ITSM), an Incident management process ensures that normal service operation is restored as quickly as possible and the business impact is minimized after an unplanned interruption or reduction in quality to an IT service, or an event that could increase the risk of this happening. All incidents are events, but not all events are incidents.
@@ -65,7 +65,7 @@ Panther is a monitoring tool that enables your IT service management Incident Ma
 
 Open Answers Event Management Flow: 
 
-![](./media/IncidentManagementFlow.jpg ':size=400')
+![Incident flow](./media/IncidentManagementFlow.jpg)
 
 ## Note
 ITIL® is an acronym that is often used in reference to describing IT service management practices. The term ITIL® should only be used to describe AXELOS' proprietary form of IT service management.

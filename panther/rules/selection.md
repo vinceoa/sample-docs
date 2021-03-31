@@ -1,10 +1,11 @@
 ---
 layout: home
 title: Event selection
-nav_order: 3
+nav_order: 5
 permalink: /panther/rules/selection
-parent: rules
-grand_parent: Panther
+parent: Rules
+layout: template
+description: Panther Rules - selections
 ---
 
 
@@ -32,7 +33,7 @@ grand_parent: Panther
       this_field: "some string"
   ```
 
-  You can also speciy a regex directly with `js-yaml` type syntax
+  You can also specify a regex directly with `js-yaml` type syntax
 
   ```yaml
     match:

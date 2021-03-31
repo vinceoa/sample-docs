@@ -1,43 +1,32 @@
 ---
 layout: home
-title: dashboard
-nav_order: 1
+title: Dashboard
+nav_order: 4
 permalink: /panther/dashboard
-parent: Panther
+layout: template
+description: Panther Dashboard
 ---
 
-* TOC
-{:toc}
-
-## Overview
+# Overview
 
 The dashboard provides an overview of the current contents of your event console.
 
-![](./dash-updating.mp4)
+![Sample Dashboard with animation](./dash-updating.mp4)
 
 
 
-## Severities
+# Severities
 
-At the top of the dashboard, there is a row of counters for events
-processed in the event logs associated with each severity.  These
-counters reflect the number of unique events logged, and will not
-increase if the same event log is processed multiple times.
+At the top of the dashboard, there is a row of counters for events processed in the event logs associated with each severity.  These counters reflect the number of unique events logged, and will not increase if the same event log is processed multiple times.
 
 
-## Event Groups
+# Event Groups
 
-Counters are displayed in this section for events matching any created
-event groups -- along with one special counter for events having no
-associated group and another for all events processed.
+Counters are displayed in this section for events matching any created event groups -- along with one special counter for events having no associated group and another for all events processed.
 
-The counters reflect the total numbers of unique event log entries in
-each of the respective groups, with the coloured bars representing the
-relative proportions of events having each of the severity levels. The
-actual numerical breakdowns can be inspected by moving the mouse
-pointer over each row.
+The counters reflect the total numbers of unique event log entries in each of the respective groups, with the coloured bars representing the relative proportions of events having each of the severity levels. The actual numerical breakdowns can be inspected by moving the mouse pointer over each row.
 
-## Activity Stream
+# Activity Stream
 
 The activity stream logs user interaction with Panther, including:
 
@@ -47,7 +36,6 @@ The activity stream logs user interaction with Panther, including:
 * Event clearances
 * Event deletions
 
-## Inventory
+# Inventory
 
-The inventory lists the names of hosts that have connected to Panther,
-and the last times they were seen.
+The inventory lists the names of hostnames that Panther has receieved events from and the last times they were seen.

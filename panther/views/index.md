@@ -1,20 +1,18 @@
 ---
 layout: home
-title: views
-nav_order: 4
+title: Views
+nav_order: 7
 permalink: /panther/views
-parent: Panther
+layout: template
+description: Panther View configuration
 ---
-
-* TOC
-{:toc}
 
 # Overview
 
-![](media/panther-view.png)
+![Panther View](./media/panther-view.png)
 
 Views provide simple, configurable match criteria which may be used
-with the [console filters](../console#view) to narrow down the
+with the [console filters](../console/index.md#view) to narrow down the
 events displayed to useful sub-sets. For example, the `Mine` view
 provided by default displays events assigned to the current user.
 
