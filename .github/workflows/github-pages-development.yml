@@ -21,7 +21,7 @@ jobs:
 
       - name: Build site
         run: |
-          bundle exec jekyll build -tV
+          bundle exec jekyll build -tV --config _config.yml,_config.development.yml
 
       - name: 🚀 deploy
         uses: peaceiris/actions-gh-pages@v3
