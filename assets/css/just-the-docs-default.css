@@ -2250,7 +2250,7 @@ figure.highlight pre, figure.highlight code { padding: 0; margin: 0; border: 0; 
   pre.highlight { border: 1px solid #44434d; }
   .main { max-width: none; margin-left: 0; } }
 @media (min-width: 87.5rem) { #toc { position: fixed; top: 5rem; right: 10px; overflow-y: auto; } }
-#toc .toc-entry { font-size: 14px; }
+#toc .toc-entry { font-size: 16px; }
 
 #toc::before { content: "On this page"; font-weight: bold; margin-bottom: 10px; }
 
